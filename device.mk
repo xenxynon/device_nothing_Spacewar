@@ -16,6 +16,13 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 $(call inherit-product, vendor/nothing/Spacewar/Spacewar-vendor.mk)
 $(call inherit-product, vendor/nothing/camera/nothing-camera.mk)
 
+# Nothing-fwk
+PRODUCT_PACKAGES += \
+    nothing-fwk
+
+PRODUCT_BOOT_JARS += \
+    nothing-fwk
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
