@@ -1,0 +1,53 @@
+cc_binary {
+    name: "android.hardware.biometrics.fingerprint-service.nothing",
+    init_rc: ["android.hardware.biometrics.fingerprint-service.nothing.rc"],
+    vintf_fragments: ["android.hardware.biometrics.fingerprint-service.nothing.xml"],
+    local_include_dirs: ["include"],
+    vendor: true,
+    relative_install_path: "hw",
+    srcs: [
+        "CancellationSignal.cpp",
+        "Fingerprint.cpp",
+        "LockoutTracker.cpp",
+        "Session.cpp",
+        "service.cpp",
+    ],
+    shared_libs: [
+        "libbinder_ndk",
+        "libhardware",
+        "libdl",
+        "liblog",
+    ],
+    static_libs: [
+        "libbase",
+        "libandroid.hardware.biometrics.fingerprint.NothingProps",
+        "android.hardware.biometrics.fingerprint-V5-ndk",
+        "android.hardware.biometrics.common-V4-ndk",
+        "android.hardware.biometrics.common.thread",
+        "android.hardware.biometrics.common.util",
+        "android.hardware.biometrics.common.config",
+        "android.hardware.keymaster-V4-ndk",
+    ],
+    lto: { thin: true },
+    whole_program_vtables: true,
+}
+
+sysprop_library {
+    name: "android.hardware.biometrics.fingerprint.NothingProps",
+    srcs: ["fingerprint.sysprop"],
+    property_owner: "Vendor",
+    vendor: true,
+}
+
+cc_library_static {
+    name: "libudfps_extension.nothing",
+    srcs: ["UdfpsExtension.cpp"],
+    include_dirs: [
+        "frameworks/native/services/surfaceflinger/CompositionEngine/include"
+    ],
+    header_libs: [
+        "generated_kernel_headers",
+    ],
+    lto: { thin: true },
+    whole_program_vtables: true,
+}
