@@ -241,7 +241,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.nothing \
+    android.hardware.biometrics.fingerprint-service.nothing \
     libudfpshandler
 
 $(call soong_config_set,surfaceflinger,udfps_lib,//$(LOCAL_PATH):libudfps_extension.nothing)

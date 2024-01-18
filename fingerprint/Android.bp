@@ -6,32 +6,47 @@
 //
 
 cc_binary {
-    name: "android.hardware.biometrics.fingerprint@2.3-service.nothing",
-    defaults: ["hidl_defaults"],
-    init_rc: ["android.hardware.biometrics.fingerprint@2.3-service.nothing.rc"],
-    vintf_fragments: ["android.hardware.biometrics.fingerprint@2.3-service.nothing.xml"],
+    name: "android.hardware.biometrics.fingerprint-service.nothing",
+    init_rc: ["android.hardware.biometrics.fingerprint-service.nothing.rc"],
+    vintf_fragments: ["android.hardware.biometrics.fingerprint-service.nothing.xml"],
+    local_include_dirs: ["include"],
     vendor: true,
     relative_install_path: "hw",
     srcs: [
-        "BiometricsFingerprint.cpp",
-        "UdfpsHandler.cpp",
+        "CancellationSignal.cpp",
+        "Fingerprint.cpp",
+        "LockoutTracker.cpp",
+        "Session.cpp",
         "service.cpp",
     ],
-
+    cflags: [
+        "-O3",
+    ],
     shared_libs: [
-        "libbase",
-        "libcutils",
+        "libbinder_ndk",
+        "libhardware",
         "libdl",
         "liblog",
-        "libhidlbase",
-        "libhardware",
-        "libutils",
-        "android.hardware.biometrics.fingerprint@2.1",
-        "android.hardware.biometrics.fingerprint@2.2",
-        "android.hardware.biometrics.fingerprint@2.3",
     ],
+    static_libs: [
+        "libbase",
+        "libandroid.hardware.biometrics.fingerprint.NothingProps",
+        "android.hardware.biometrics.fingerprint-V4-ndk",
+        "android.hardware.biometrics.common-V4-ndk",
+        "android.hardware.biometrics.common.thread",
+        "android.hardware.biometrics.common.util",
+        "android.hardware.biometrics.common.config",
+        "android.hardware.keymaster-V4-ndk",
+    ],
+    lto: { thin: true },
+    whole_program_vtables: true,
+}
 
-    header_libs: ["nothingfingerprint_headers"],
+sysprop_library {
+    name: "android.hardware.biometrics.fingerprint.NothingProps",
+    srcs: ["fingerprint.sysprop"],
+    property_owner: "Vendor",
+    vendor: true,
 }
 
 cc_library_headers {
@@ -51,4 +66,7 @@ cc_library_static {
     header_libs: [
         "generated_kernel_headers",
     ],
+    cflags: [ "-O3" ],
+    lto: { thin: true },
+    whole_program_vtables: true,
 }
