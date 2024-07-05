@@ -170,11 +170,6 @@ ro.surface_flinger.wcg_composition_dataspace=143261696
 # Incremental FS
 ro.incremental.enable=yes
 
-# Media
-debug.stagefright.c2inputsurface=-1
-debug.stagefright.ccodec=4
-debug.stagefright.omx_default_rank=0
-
 # QTEE
 persist.vendor.qteeconnector.retrying_interval=30
 persist.vendor.qteeconnector.retrying_timeout=2000
