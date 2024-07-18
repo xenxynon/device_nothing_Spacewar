@@ -1,4 +1,4 @@
-# All unpinned blobs are extracted from Spacewar-U2.5-240419-1617
+# All unpinned blobs are extracted from Spacewar-U2.6-240705-1617-(2.6.0)
 
 # ACDB
 vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
@@ -280,10 +280,10 @@ vendor/etc/lvacfs_params/4mic/audiozoom_13.txt
 vendor/etc/lvacfs_params/4mic/audiozoom_4.txt
 
 # Audio (Spatial) - from tangorpro-user-14-AP1A.240305.019.A1
-vendor/lib/aoc_audio_stereo_spatializer.so|f715e32bbae5b935d14db110f33de17589ecfd04
-vendor/lib/soundfx/libspatialaudio.so|f6b3bfb39ef6ad709494d016f28fd057d79b6085
-vendor/lib64/aoc_audio_stereo_spatializer.so|8b6e72d78cc1c1ea20ccffcdb8cd42e8062c78e4
-vendor/lib64/soundfx/libspatialaudio.so|7653a31d0d374800cb3c078b88e2937d3ef0bdb0
+vendor/lib/aoc_audio_stereo_spatializer.so|35f0568e2dbc5e5c4c764f8545d0012ca9955e3a
+vendor/lib/soundfx/libspatialaudio.so|ea260b5527342ead4e2975bcbd482f997b13e17e
+vendor/lib64/aoc_audio_stereo_spatializer.so|b3791cde6c5bb64aadcacae01d0ee076c1e23c4f
+vendor/lib64/soundfx/libspatialaudio.so|08dc556aa79f2b3e498648dcf6e2e29c8a949ba3
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
