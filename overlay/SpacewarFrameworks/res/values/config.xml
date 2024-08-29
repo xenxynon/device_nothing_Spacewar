@@ -716,10 +716,6 @@
      SMD. -->
     <bool name="config_autoPowerModePreferWristTilt">true</bool>
 
-    <!-- The default value for whether head tracking for
-         spatial audio is enabled for a newly connected audio device -->
-    <bool name="config_spatial_audio_head_tracking_enabled_default">true</bool>
-
     <!-- The display will be shift around in ambient mode. -->
     <bool name="config_enableBurnInProtection">true</bool>
     <integer name="config_burnInProtectionMaxRadius">16</integer>
