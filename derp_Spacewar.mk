@@ -20,23 +20,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/nothing/Spacewar/device.mk)
 
 # Inherit some common PixysOS stuff.
-$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
-TARGET_GAPPS_ARCH := arm64
+
+TARGET_SUPPORTS_64_BIT_APPS := true
+
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# PixysOS Properties
-TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+# Derp Flags
 TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_SUPPORTS_CALL_RECORDING := true
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-TARGET_INCLUDE_OEM_CAMERA := true
-TARGET_INCLUDE_CARRIER_SETTINGS := true
+EXTRA_UDFPS_ICONS := true
+TARGET_NOT_USES_BLUR := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := pixys_Spacewar
+PRODUCT_NAME := derp_Spacewar
 PRODUCT_DEVICE := Spacewar
 PRODUCT_BRAND := Nothing
 PRODUCT_MODEL := A063
