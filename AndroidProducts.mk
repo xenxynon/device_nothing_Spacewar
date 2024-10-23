@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2018-2021 PixysOS
+# Copyright (C) 2018-2021 statixOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixys_Spacewar.mk
+    $(LOCAL_DIR)/statix_Spacewar.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixys_Spacewar-eng \
-    pixys_Spacewar-userdebug \
-    pixys_Spacewar-user
+    statix_Spacewar-eng \
+    statix_Spacewar-userdebug \
+    statix_Spacewar-user

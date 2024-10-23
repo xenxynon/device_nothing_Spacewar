@@ -20,5 +20,5 @@ cc_library {
     cflags: ["-D_BSG_FRAMEWORK_KERNEL_HEADERS"],
     owner: "qti",
     export_include_dirs: ["."],
-    header_libs: ["generated_kernel_headers"],
+    header_libs: ["device_kernel_headers"],
 }

@@ -25,6 +25,9 @@ PRODUCT_PACKAGES += \
     PixysFrameworksSpacewar \
     PixysSystemUISpacewar
 
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := lahaina
+
 # RRO (Spacewar)
 PRODUCT_PACKAGES += \
     SpacewarCarrierConfig \
@@ -197,6 +200,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0 \
     android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth.audio-impl \
     vendor.qti.hardware.bluetooth_audio@2.1.vendor \
@@ -337,9 +341,13 @@ PRODUCT_PACKAGES += \
 
 # Kernel
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
-
-# Kernel
 PRODUCT_ENABLE_UFFD_GC := false
+
+PRODUCT_VENDOR_KERNEL_HEADERS += device/nothing/kernel/kernel-headers
+TARGET_KERNEL_DIR ?= device/nothing/kernel
+LOCAL_KERNEL := $(TARGET_KERNEL_DIR)/images/kernel
+
+PRODUCT_COPY_FILES += $(LOCAL_KERNEL):kernel
 
 # Keymaster
 PRODUCT_PACKAGES += \
