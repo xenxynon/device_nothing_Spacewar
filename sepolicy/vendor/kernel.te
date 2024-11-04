@@ -1,0 +1,2 @@
+# Ignore the socket if it fails to create
+dontaudit kernel self:capability dac_read_search;
