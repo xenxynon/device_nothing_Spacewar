@@ -19,18 +19,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from Spacewar device
 $(call inherit-product, device/nothing/Spacewar/device.mk)
 
-# Inherit some common PixysOS stuff.
+# Inherit some common ROM vendor config
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
-
-
 TARGET_SUPPORTS_64_BIT_APPS := true
-
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Derp Flags
 TARGET_SUPPORTS_QUICK_TAP := true
 EXTRA_UDFPS_ICONS := true
 TARGET_NOT_USES_BLUR := true
+TARGET_USES_NOTHING_CAMERA := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := derp_Spacewar
