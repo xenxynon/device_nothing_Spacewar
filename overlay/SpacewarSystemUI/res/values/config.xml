@@ -3,8 +3,6 @@
     <!-- Doze: does this device support STATE_DOZE?  -->
     <bool name="doze_display_state_supported">true</bool>
 
-    <!-- The radius of the enrollment progress bar, in dp -->
-    <integer name="config_udfpsEnrollProgressBar" translatable="false">99</integer>
-
+    <!-- Pixel pitch of the device. um/px -->
     <item name="pixel_pitch" format="float" type="dimen">61.2</item>
 </resources>
