@@ -723,4 +723,11 @@
     <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
     <bool name="config_zramWriteback">false</bool>
 
+    <!-- The display will be shift around in ambient mode. -->
+    <bool name="config_enableBurnInProtection">true</bool>
+    <integer name="config_burnInProtectionMaxRadius">16</integer>
+    <integer name="config_burnInProtectionMinHorizontalOffset">2</integer>
+    <integer name="config_burnInProtectionMaxHorizontalOffset">8</integer>
+    <integer name="config_burnInProtectionMinVerticalOffset">1</integer>
+    <integer name="config_burnInProtectionMaxVerticalOffset">4</integer>
 </resources>
