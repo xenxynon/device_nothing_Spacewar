@@ -54,7 +54,6 @@ persist.vendor.data.mode=concurrent
 ro.nfc.port=I2C
 
 # Radio
-persist.vendor.radio.atfwd.start=true
 ril.subscription.types=NV,RUIM
 ro.telephony.default_network=33,33
 ro.telephony.sim_slots.count=2
