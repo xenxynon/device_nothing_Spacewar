@@ -200,6 +200,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.system_ext.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries.txt
 
+# Dex-preopt/Art
+ART_BUILD_TARGET_NDEBUG := true
+ART_BUILD_TARGET_DEBUG := false
+ART_BUILD_HOST_NDEBUG := true
+ART_BUILD_HOST_DEBUG := false
+PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := everything
+PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything-profile
+DONT_DEXPREOPT_PREBUILTS := true
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
