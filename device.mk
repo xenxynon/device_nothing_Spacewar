@@ -201,9 +201,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.system_ext.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries.txt
 
 # Dex-preopt/Art
-ART_BUILD_TARGET_NDEBUG := true
+ART_BUILD_TARGET_NDEBUG := false
 ART_BUILD_TARGET_DEBUG := false
-ART_BUILD_HOST_NDEBUG := true
+ART_BUILD_HOST_NDEBUG := false
 ART_BUILD_HOST_DEBUG := false
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := everything
 PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
