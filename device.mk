@@ -24,6 +24,9 @@ PRODUCT_BOOT_JARS += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+PRODUCT_PACKAGES += \
+    NcmTetheringOverlay
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Soong namespaces
