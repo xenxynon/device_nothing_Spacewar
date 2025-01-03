@@ -1044,8 +1044,6 @@ vendor/lib64/libpn557_fw.so
 vendor/lib64/ls_client.so
 vendor/lib64/nfc_nci_nxp_snxxx.so
 vendor/lib64/se_extn_client.so
-vendor/lib64/vendor.nxp.nxpese@1.0.so
-vendor/lib64/vendor.nxp.nxpnfc@2.0.so
 vendor/libnfc-nxp_RF.conf
 
 # Peripheral manager
