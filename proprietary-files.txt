@@ -1508,6 +1508,7 @@ system_ext/lib/libmmrtpencoder.so
 system_ext/lib/libwfdavenhancements.so
 system_ext/lib/libwfdcommonutils.so
 system_ext/lib/libwfdconfigutils.so
+system_ext/lib/libwfdclient.so
 system_ext/lib/libwfddisplayconfig.so
 system_ext/lib/libwfdmminterface.so
 system_ext/lib/libwfdmmsink.so
