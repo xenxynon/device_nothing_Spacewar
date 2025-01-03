@@ -112,12 +112,14 @@ vendor/lib/libaudioconfigstore.so
 vendor/lib/libaudioparsers.so
 vendor/lib/libdrc.so
 vendor/lib/libhdmipassthru.so
+vendor/lib/libaudio_log_utils.so
 vendor/lib/liblvacfs_wrapper.so
 vendor/lib/libqtigef.so
 vendor/lib/libssrec.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib64/libaudcal.so
 vendor/lib64/libadiertac.so
+vendor/lib64/libaudio_log_utils.so
 
 # Audio amplifier
 vendor/firmware/tfa98xx.cnt
