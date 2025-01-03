@@ -3,16 +3,23 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
+
 #pragma once
+
 #include <aidl/android/hardware/keymaster/HardwareAuthToken.h>
+
 #include <hardware/hw_auth_token.h>
+
 #include <endian.h>
+
 using aidl::android::hardware::keymaster::HardwareAuthToken;
+
 namespace aidl {
 namespace android {
 namespace hardware {
 namespace biometrics {
 namespace fingerprint {
+
 inline void translate(const HardwareAuthToken& authToken, hw_auth_token_t& hat) {
     hat.challenge = authToken.challenge;
     hat.user_id = authToken.userId;
@@ -22,6 +29,7 @@ inline void translate(const HardwareAuthToken& authToken, hw_auth_token_t& hat) 
     hat.timestamp = htobe64(authToken.timestamp.milliSeconds);
     std::copy(authToken.mac.begin(), authToken.mac.end(), hat.hmac);
 }
+
 inline void translate(const hw_auth_token_t& hat, HardwareAuthToken& authToken) {
     authToken.challenge = hat.challenge;
     authToken.userId = hat.user_id;
@@ -34,6 +42,7 @@ inline void translate(const hw_auth_token_t& hat, HardwareAuthToken& authToken) 
     authToken.mac.insert(authToken.mac.begin(), std::begin(hat.hmac),
                          std::end(hat.hmac));
 }
+
 } // namespace fingerprint
 } // namespace biometrics
 } // namespace hardware

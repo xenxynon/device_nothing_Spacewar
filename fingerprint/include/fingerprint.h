@@ -1,6 +1,5 @@
 /*
  * Copyright (C) 2014 The Android Open Source Project
- * Copyright (C) 2024 The halogenOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,7 +14,8 @@
  * limitations under the License.
  */
 
-#pragma once
+#ifndef ANDROID_INCLUDE_HARDWARE_FINGERPRINT_H
+#define ANDROID_INCLUDE_HARDWARE_FINGERPRINT_H
 
 #include <hardware/hardware.h>
 #include <hardware/hw_auth_token.h>
@@ -72,8 +72,7 @@ typedef enum fingerprint_acquired_info {
     FINGERPRINT_ACQUIRED_IMAGER_DIRTY = 3, /* sensor needs to be cleaned */
     FINGERPRINT_ACQUIRED_TOO_SLOW = 4, /* mostly swipe-type sensors; not enough data collected */
     FINGERPRINT_ACQUIRED_TOO_FAST = 5, /* for swipe and area sensors; tell user to slow down*/
-    FINGERPRINT_ACQUIRED_VENDOR = 6,
-    FINGERPRINT_ACQUIRED_DETECTED = 7, /* when the finger is first detected. Used to optimize
+    FINGERPRINT_ACQUIRED_DETECTED = 6, /* when the finger is first detected. Used to optimize
                                           wakeup. Should be followed by one of the above messages */
     FINGERPRINT_ACQUIRED_VENDOR_BASE = 1000 /* vendor-specific acquisition messages start here */
 } fingerprint_acquired_info_t;
@@ -278,3 +277,4 @@ typedef struct fingerprint_module {
     struct hw_module_t common;
 } fingerprint_module_t;
 
+#endif /* ANDROID_INCLUDE_HARDWARE_FINGERPRINT_H */
