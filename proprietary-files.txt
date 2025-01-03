@@ -117,6 +117,7 @@ vendor/lib/libqtigef.so
 vendor/lib/libssrec.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib64/libaudcal.so
+vendor/lib64/libadiertac.so
 
 # Audio amplifier
 vendor/firmware/tfa98xx.cnt
