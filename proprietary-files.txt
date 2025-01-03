@@ -1317,6 +1317,9 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so|444b879c119a74cd
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so|5bd93b3461b37c9ec7b10ae14b83781eb7556b27
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so|cf9e2e22271a4091ba3c4c636ffc55f0d571ca42
 
+# ims - from LA.QSSI.15.0.r1
+system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so
+
 # Sensors
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
 vendor/bin/init.qcom.sensors.sh
