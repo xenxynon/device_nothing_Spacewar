@@ -116,6 +116,7 @@ vendor/lib/liblvacfs_wrapper.so
 vendor/lib/libqtigef.so
 vendor/lib/libssrec.so
 vendor/lib/libsurround_3mic_proc.so
+vendor/lib64/libaudcal.so
 
 # Audio amplifier
 vendor/firmware/tfa98xx.cnt
