@@ -59,6 +59,10 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        vendor/bin/hw/vendor.qti.hardware.vibrator.service | vendor/lib64/vendor.qti.hardware.vibrator.impl.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --replace-needed "android.hardware.vibrator-V1-ndk_platform.so" "android.hardware.vibrator-V2-ndk.so" "${2}"
+            ;;
         vendor/etc/init/netmgrd.rc)
             [ "$2" = "" ] && return 0
             sed -i "/modprobe/d" "${2}"
