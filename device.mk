@@ -284,8 +284,8 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@2.1-impl-qti \
-    android.hardware.gnss@2.1-service-qti
+    android.hardware.gnss@2.1-service \
+    android.hardware.gnss-V2-ndk.vendor
 
 PRODUCT_PACKAGES += \
     libbatching \
