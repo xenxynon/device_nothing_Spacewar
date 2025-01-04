@@ -548,11 +548,14 @@ vendor/lib64/libcdsprpc.so
 vendor/lib64/libsysmon_cdsp_skel.so
 
 # Charger
+vendor/bin/pd-mapper
 vendor/bin/hvdcp_opti
 vendor/bin/init.qti.chg_policy.sh
 vendor/etc/charger_fstab.qti
 vendor/etc/charger_fw_fstab.qti
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
+vendor/lib64/libpdmapper.so
+vendor/lib64/libpdnotifier.so
 
 # CNE
 vendor/app/CACertService/CACertService.apk
