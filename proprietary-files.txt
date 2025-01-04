@@ -1024,6 +1024,9 @@ system/framework/tcmclient.jar
 system/framework/vendor.qti.hardware.data.connectionaidl-V1-java.jar
 system/lib64/vendor.qti.diaghal-V1-ndk.so
 
+# libminsocket
+vendor/lib64/libminksocket.so
+
 # IMS
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdaemon
