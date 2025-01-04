@@ -1786,13 +1786,11 @@ vendor/bin/tftp_server;DISABLE_CHECKELF
 vendor/etc/init/vendor.qti.tftp.rc
 
 # Thermal
-vendor/lib/libthermalclient.so
-vendor/lib64/libthermalclient.so
 vendor/bin/hw/vendor.qti.hardware.limits@1.0-service
 vendor/bin/thermal-engine
-vendor/etc/advance_thermal_mitigation/atmc.json
 vendor/etc/init/init_thermal-engine.rc
 vendor/etc/init/vendor.qti.hardware.limits@1.0-service.rc
+vendor/etc/advance_thermal_mitigation/atmc.json
 vendor/etc/thermal-engine.conf
 vendor/etc/thermal.benchmark.conf
 vendor/etc/thermal.high.conf
@@ -1800,6 +1798,7 @@ vendor/etc/thermal.high.level1.conf
 vendor/etc/thermal.high.level2.conf
 vendor/etc/thermal.high.level3.conf
 vendor/etc/thermal.high.level4.conf
+vendor/etc/thermal.high.perf.conf
 vendor/etc/thermal.low.conf
 vendor/etc/thermal.low.level1.conf
 vendor/etc/thermal.low.level2.conf
@@ -1811,7 +1810,9 @@ vendor/etc/thermal.mid.level4.conf
 vendor/etc/thermal.sgame.conf
 vendor/etc/thermal.super.conf
 vendor/etc/vintf/manifest/vendor.qti.hardware.limits@1.0-service.xml
-vendor/lib64/vendor.qti.hardware.limits@1.0.so
+vendor/lib/libthermalclient.so
+vendor/lib64/libthermalclient.so
+vendor/lib64/vendor.qti.hardware.limits@1.0.so;MODULE_SUFFIX=_vendor
 
 # Time
 vendor/app/TimeService/TimeService.apk
