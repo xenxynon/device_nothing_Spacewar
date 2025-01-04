@@ -691,7 +691,6 @@ vendor/etc/cne/profileMwqem.xml
 vendor/etc/init/cnd.rc
 vendor/etc/init/vendor.qti.hardware.factory@1.0-service.rc
 vendor/lib/libqmiservices.so;MODULE_SUFFIX=_vendor;DISABLE_DEPS
-vendor/lib/libwpa_client.so;DISABLE_DEPS
 vendor/lib/vendor.qti.data.factory@2.0.so;MODULE_SUFFIX=_vendor;DISABLE_DEPS
 vendor/lib/vendor.qti.data.factory@2.1.so;MODULE_SUFFIX=_vendor;DISABLE_DEPS
 vendor/lib/vendor.qti.data.factory@2.2.so;MODULE_SUFFIX=_vendor;DISABLE_DEPS
@@ -721,7 +720,6 @@ vendor/lib64/libcne.so;DISABLE_DEPS
 vendor/lib64/libcneapiclient.so;DISABLE_DEPS
 vendor/lib64/libidl.so
 vendor/lib64/libqmiservices.so;MODULE_SUFFIX=_vendor;DISABLE_DEPS
-vendor/lib64/libwpa_client.so;DISABLE_DEPS
 vendor/lib64/vendor.qti.data.factory@2.0.so;MODULE_SUFFIX=_vendor;DISABLE_DEPS
 vendor/lib64/vendor.qti.data.factory@2.1.so;MODULE_SUFFIX=_vendor;DISABLE_DEPS
 vendor/lib64/vendor.qti.data.factory@2.2.so;MODULE_SUFFIX=_vendor;DISABLE_DEPS
