@@ -1,6 +1,5 @@
 /*
  * Copyright (C) 2024 The LineageOS Project
- * Copyright (C) 2024 The halogenOS Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
@@ -10,9 +9,9 @@ namespace android {
 namespace hardware {
 namespace biometrics {
 namespace fingerprint {
-#define LOCKOUT_TIMED_THRESHOLD 10
-#define LOCKOUT_TIMED_DURATION 20 * 1000
-#define LOCKOUT_PERMANENT_THRESHOLD 30
+#define LOCKOUT_TIMED_THRESHOLD 5
+#define LOCKOUT_TIMED_DURATION 30 * 1000
+#define LOCKOUT_PERMANENT_THRESHOLD 20
 enum class LockoutMode {
     NONE,
     TIMED,
