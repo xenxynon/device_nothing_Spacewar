@@ -455,9 +455,7 @@ void Session::notify(const fingerprint_msg_t* msg) {
                     VendorAcquiredFilter(msg->data.acquired.acquired_info, &vendorCode);
             LOG(DEBUG) << "onAcquired(" << (int8_t) result << ", " << vendorCode << ");";
             enterIdling();
-            if (result != AcquiredInfo::VENDOR) {
-                mCb->onAcquired(result, vendorCode);
-            }
+            mCb->onAcquired(result, vendorCode);
         } break;
         case FINGERPRINT_TEMPLATE_ENROLLING: {
             LOG(DEBUG) << "onEnrollResult(fid=" << msg->data.enroll.finger.fid
