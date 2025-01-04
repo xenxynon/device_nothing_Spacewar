@@ -1781,6 +1781,10 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so
 # Subsystem
 vendor/bin/ssr_setup
 
+# TFT
+vendor/bin/tftp_server;DISABLE_CHECKELF
+vendor/etc/init/vendor.qti.tftp.rc
+
 # Thermal
 vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
