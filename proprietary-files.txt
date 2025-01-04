@@ -985,6 +985,8 @@ system/framework/com.nxp.nfc.jar
 vendor/bin/hw/android.hardware.nfc_snxxx@1.2-service
 vendor/bin/nqnfcinfo
 vendor/etc/init/android.hardware.nfc_snxxx@1.2-service.rc
+vendor/etc/init/init.Spacewar.nfc.rc
+vendor/etc/init/init.Spacewar.se.rc
 vendor/etc/libnfc-mtp-SN100.conf
 vendor/etc/libnfc-mtp-SN100_38_4MHZ.conf
 vendor/etc/libnfc-nci.conf
