@@ -75,6 +75,10 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             sed -Ei "/media_codecs_(google_audio|google_c2|google_telephony|vendor_audio)/d" "${2}"
             ;;
+        vendor/etc/seccomp_policy/atfwd@2.0.policy)
+            [ "$2" = "" ] && return 0
+            grep -q "gettid: 1" "${2}" || echo "gettid: 1" >> "${2}"
+            ;;
         vendor/etc/seccomp_policy/wfdhdcphalservice.policy)
             [ "$2" = "" ] && return 0
             grep -q "gettid: 1" "${2}" || echo "gettid: 1" >> "${2}"
