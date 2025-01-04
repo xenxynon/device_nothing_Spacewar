@@ -8,4 +8,9 @@
             <instance>qccsyshal</instance>
         </interface>
     </hal>
+    <hal format="aidl">
+        <name>vendor.qti.hardware.radio.atcmdfwd</name>
+        <version>1</version>
+        <fqname>IAtCmdFwd/AtCmdFwdAidl</fqname>
+    </hal>
 </manifest>
