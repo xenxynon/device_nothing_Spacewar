@@ -467,6 +467,8 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor \
     android.hardware.wifi.hostapd@1.0.vendor \
     android.system.net.netd@1.1.vendor \
+    librmnetctl \
+    libxml2 \
     vendor.qti.hardware.systemhelperaidl-V1-ndk.vendor
 
 # RIL-aidl
