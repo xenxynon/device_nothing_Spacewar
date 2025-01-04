@@ -1,13 +1,16 @@
 /*
  * Copyright (C) 2024 The LineageOS Project
- * Copyright (C) 2024 The halogenOS Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
 
 #include "CancellationSignal.h"
 
-namespace aidl::android::hardware::biometrics::fingerprint {
+namespace aidl {
+namespace android {
+namespace hardware {
+namespace biometrics {
+namespace fingerprint {
 
 CancellationSignal::CancellationSignal(Session* session)
     : mSession(session) {
@@ -17,4 +20,8 @@ ndk::ScopedAStatus CancellationSignal::cancel() {
     return mSession->cancel();
 }
 
-} // namespace aidl::android::hardware::biometrics::fingerprint
+} // namespace fingerprint
+} // namespace biometrics
+} // namespace hardware
+} // namespace android
+} // namespace aidl
