@@ -43,8 +43,8 @@ constexpr char HW_VERSION[] = "nothing/goodix/fp_hal";
 constexpr char FW_VERSION[] = "1.01";
 constexpr char SERIAL_NUMBER[] = "00000001";
 constexpr char SW_COMPONENT_ID[] = "matchingAlgorithm";
-constexpr char SW_VERSION[] = "vendor/version/revision";
-}
+constexpr char SW_VERSION[] = "halogenOS/15/0";
+}  // namespace
 
 static Fingerprint* sInstance;
 
