@@ -1909,7 +1909,7 @@ system_ext/etc/vintf/manifest/vendor.qti.hardware.sigma_miracast.xml
 system_ext/etc/vintf/manifest/vendor.qti.hardware.sigma_miracast_aidl.xml
 system_ext/lib/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so
 system_ext/lib/libdisplayconfig.system.qti.so
-system_ext/lib/libmiracastsystem.so
+system_ext/lib/libmiracastsystem.so;DISABLE_DEPS
 system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
 system_ext/lib/libmmrtpdecoder.so
@@ -1938,7 +1938,7 @@ system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so
 system_ext/lib/vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk.so
 system_ext/lib64/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so
 system_ext/lib64/libdisplayconfig.system.qti.so
-system_ext/lib64/libmiracastsystem.so
+system_ext/lib64/libmiracastsystem.so;DISABLE_DEPS
 system_ext/lib64/libmmosal.so
 system_ext/lib64/libmmparser_lite.so
 system_ext/lib64/libmmrtpdecoder.so
@@ -1979,7 +1979,7 @@ vendor/lib/libFileMux_proprietary.so
 vendor/lib/libhdcp1prov.so
 vendor/lib/libhdcp2p2prov.so
 vendor/lib/libhdcpsrm.so
-vendor/lib/libmiracast.so
+vendor/lib/libmiracast.so;DISABLE_DEPS
 vendor/lib/libmmrtpdecoder_proprietary.so
 vendor/lib/libmmrtpencoder_proprietary.so
 vendor/lib/libwfdaac_vendor.so
@@ -2009,7 +2009,7 @@ vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
 vendor/lib64/libhdcp1prov.so
 vendor/lib64/libhdcp2p2prov.so
 vendor/lib64/libhdcpsrm.so
-vendor/lib64/libmiracast.so
+vendor/lib64/libmiracast.so;DISABLE_DEPS
 vendor/lib64/libmm-hdcpmgr.so
 vendor/lib64/libwfddisplayconfig_proprietary.so
 vendor/lib64/libwfdhdcpcp.so
