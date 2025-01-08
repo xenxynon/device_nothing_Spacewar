@@ -235,8 +235,8 @@ system_ext/etc/hdr_config/wnr_off/wnr_config.txt
 system_ext/etc/hdr_config/wnr_off/wnr_params.txt
 system_ext/etc/hdr_config/wnr_on/wnr_config.txt
 system_ext/etc/hdr_config/wnr_on/wnr_params.txt
-system_ext/lib/libavenhancements.so
-system_ext/lib64/libavenhancements.so
+system_ext/lib/libavenhancements.so;DISABLE_CHECKELF
+system_ext/lib64/libavenhancements.so;DISABLE_CHECKELF
 
 # Audio LVIMFS parameters
 vendor/etc/lvacfs_params/1mic/LVACFS_Calibration360.dat
