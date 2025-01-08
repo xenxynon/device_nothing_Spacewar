@@ -57,7 +57,6 @@ function lib_to_package_fixup_vendor_variants() {
             vendor.qti.diaghal@1.0 | \
             vendor.qti.hardware.data.* | \
             vendor.qti.hardware.embmssl* | \
-            vendor.qti.hardware.limits@1.0 | \
             vendor.qti.hardware.mwqemadapter@1.0 | \
             vendor.qti.hardware.radio.* | \
             vendor.qti.hardware.slmadapter@1.0 | \
