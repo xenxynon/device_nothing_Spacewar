@@ -233,7 +233,6 @@ PRODUCT_PACKAGES += \
     gralloc.default \
     libtinyxml \
     libvulkan \
-    memtrack.default \
     vendor.display.config@1.15.vendor \
     vendor.display.config@1.5 \
     vendor.display.config@2.0 \
