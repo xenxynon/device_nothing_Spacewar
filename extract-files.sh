@@ -85,7 +85,7 @@ function blob_fixup() {
             ;;
         vendor/lib64/libgf_hal.so)
             [ "$2" = "" ] && return 0
-            sed -i "s|ro.boot.flash.locked|ro.bootloader.locked|g" "${2}"
+            sed -i "s/ro.boot.flash.locked/vendor.goodix.locked/g" "${2}"
             ;;
         vendor/lib64/hw/com.qti.chi.override.so)
             [ "$2" = "" ] && return 0
