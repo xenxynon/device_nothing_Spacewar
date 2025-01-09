@@ -64,7 +64,8 @@ function lib_to_package_fixup_vendor_variants() {
             vendor.qti.imsrtpservice@3.0 | \
             vendor.qti.hardware.qccvndhal@1.0 | \
             vendor.qti.ims.* | \
-            vendor.qti.latency*)
+            vendor.qti.latency* | \
+            vendor.qti.qspmhal@1.0 )
             echo "$1_vendor"
             ;;
         libOmxCore | \
