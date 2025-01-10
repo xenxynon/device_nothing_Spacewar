@@ -1,5 +1,3 @@
-# All unpinned blobs are extracted from Spacewar-U2.6-240705-1617-(2.6.0)
-
 # ACDB
 vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
 vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
@@ -98,7 +96,7 @@ vendor/lib/hw/com.dsi.ant@1.0-impl.so
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
 # Audio
--system_ext/framework/audiosphere.jar
+system_ext/framework/audiosphere.jar
 system_ext/etc/permissions/audiosphere.xml
 vendor/bin/audioflacapp
 vendor/lib/hw/audio.primary.lahaina.so;MODULE_SUFFIX=_Spacewar;OVERRIDES=audio.primary.lahaina
