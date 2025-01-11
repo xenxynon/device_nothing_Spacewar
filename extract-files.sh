@@ -99,6 +99,11 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             grep -q "libcrypto-v33.so" "${2}" || "${PATCHELF}" --replace-needed "libcrypto.so" "libcrypto-v33.so" "$2"
             ;;
+        vendor/bin/hw/android.hardware.keymaster@4.1-service-qti)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --add-needed "libcrypto-v33.so" "${2}"
+            ;;
+
 
         *)
             return 1
