@@ -107,6 +107,11 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "android.media.audio.common.types-V3-cpp.so" "android.media.audio.common.types-V4-cpp.so" "${2}"
             ;;
+        vendor/bin/hw/android.hardware.keymaster@4.1-service-qti)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --add-needed "libcrypto-v33.so" "${2}"
+            ;;
+
 
         *)
             return 1
