@@ -323,6 +323,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.default \
     fstab.zram \
+    fstab.default.ramdisk \
+    fstab.default.vendor_ramdisk \
     init.class_main.sh \
     init.kernel.post_boot-yupik.sh \
     init.kernel.post_boot.sh \
