@@ -94,6 +94,23 @@ on boot
     write /proc/sys/kernel/hung_task_check_interval_secs 0
     write /proc/sys/kernel/hung_task_selective_monitoring 0
 
+# Setup dalvik vm configs
+on post-fs && property:ro.vendor.hw.ram=8GB
+    setprop dalvik.vm.heapstartsize 16m
+    setprop dalvik.vm.heapgrowthlimit 384m
+    setprop dalvik.vm.heapsize 512m
+    setprop dalvik.vm.heaptargetutilization 0.75
+    setprop dalvik.vm.heapminfree 512k
+    setprop dalvik.vm.heapmaxfree 8m
+
+on post-fs && property:ro.vendor.hw.ram=12GB
+    setprop dalvik.vm.heapstartsize 24m
+    setprop dalvik.vm.heapgrowthlimit 384m
+    setprop dalvik.vm.heapsize 512m
+    setprop dalvik.vm.heaptargetutilization 0.42
+    setprop dalvik.vm.heapminfree 8m
+    setprop dalvik.vm.heapmaxfree 56m
+
 on post-fs-data
     # Goodix
     mkdir /data/vendor/goodix 0700 system system
