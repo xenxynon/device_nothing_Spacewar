@@ -1447,27 +1447,34 @@ vendor/bin/pm-service
 vendor/lib64/libperipheral_client.so
 vendor/lib64/libspcom.so
 
-# QCC
-system_ext/app/QCC/QCC.apk
-system_ext/bin/qccsyshal@1.2-service
-system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc
-system_ext/etc/permissions/com.qti.qcc.vendor_qcc.xml
-system_ext/lib/vendor.qti.hardware.qccsyshal@1.0.so
-system_ext/lib64/libqcc.so
-system_ext/lib64/libqcc_file_agent_sys.so
-system_ext/lib64/libqccdme.so
-system_ext/lib64/libqccfileservice.so
-system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0.so
-system_ext/lib64/vendor.qti.hardware.qccsyshal@1.1.so
-system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so
-system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2.so
-system_ext/lib64/vendor.qti.hardware.qccvndhal@1.0.so
-system_ext/lib64/vendor.qti.qccvndhal_aidl-V1-ndk.so
-vendor/lib/vendor.qti.hardware.qccsyshal@1.0.so;MODULE_SUFFIX=_vendor
-vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so;MODULE_SUFFIX=_vendor
-vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so
-vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so;MODULE_SUFFIX=_vendor
+# QCC - from LA.QSSI.15.0.r1-12900-qssi.0
+system_ext/app/QCC/QCC.apk|d5cd4d2a5183b653b4fd94eeb32cec6e0c4b6f28
+system_ext/bin/qccsyshal@1.2-service|93fc045060a4242a89a20c7c195914bf420bea84
+system_ext/bin/qccsyshal_aidl-service|a9f8c0a545a017507697ab3ebbadc03e01273b09
+system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc|e61d5e228dbbe5f297a8763ff1fe0b4070f805ef
+system_ext/etc/init/vendor.qti.qccsyshal_aidl-service.rc|d795807696dc585d540342622e452ae2b67ddd22
+system_ext/etc/permissions/com.qti.location.sdk.xml|fac5922b978d83a00cd9ec0ddcf2c5d7ab26d492
+system_ext/etc/permissions/com.qti.qcc.vendor_qcc.xml|84fdcd93d53a1b399b9aa765095d47cdb0d872df
+system_ext/etc/permissions/com.qualcomm.location.xml|1d36e7cf8e16813aa13ee6b3fca8d8687b543828
+system_ext/etc/permissions/com.qualcomm.qti.izattools.xml|5322f31201ffb8ab62d141beb24bc880c7aed8c8
+system_ext/etc/permissions/privapp-permissions-com.qualcomm.location.xml|65de554b64f77c137bcb5f999a2b7ef03548cb5b
+system_ext/etc/vintf/manifest/vendor.qti.qccsyshal_aidl-service.xml|7d074a1c47dfc406de5c41c2ee6289118653f13f
+system_ext/framework/com.qti.location.sdk.jar|a9f933331b9b689899f1a155da638f390785208e
+system_ext/lib64/liblocsdk_diag_jni.so|bacfe6de6ce8043e7f30602f576e28c5679625e6
+system_ext/lib64/libqcc.so|fcc40e829fe89d4f73f68f0ea949f0f161b9bb75
+system_ext/lib64/libqcc_file_agent_sys.so|8d1e3524eeb86f16e6491390628e62c337f73a28
+system_ext/lib64/libqcc_netstats.so|4e5ef6cbb2b9fba5e5b4647781e4b9cfe99a83e5
+system_ext/lib64/libqccdme.so|fc930c42a91aba17e24625cce8d098f8b2aa5cbf
+system_ext/lib64/libqccfileservice.so|4ea715ba00303096daa1a04625e3f20c1844813b
+system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0.so|88b21e904b1644bc520c348b4004f07a8976a0ae
+system_ext/lib64/vendor.qti.hardware.qccsyshal@1.1.so|cd39a8e5edcc0851da6870e8011cf62a288973c9
+system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so|b72932b48c4f25e8f47043c31ec7107c2be82ab8
+system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2.so|fd3c5cb8bcba9a222af87abbb3d0f3a84bb3b196
+system_ext/lib64/vendor.qti.hardware.qccvndhal@1.0.so|fec4590bf4a36caa1a6127246e42a63c12ef10b7
+system_ext/lib64/vendor.qti.qccsyshal_aidl-V1-ndk.so|932c1b4f9e6983bfbd8c845fe570fc2543e92548
+system_ext/lib64/vendor.qti.qccsyshal_aidl-halimpl.so|dce1c06b47737f402b4f099995047127d87555ea
+system_ext/lib64/vendor.qti.qccvndhal_aidl-V1-ndk.so|5a8c4446865bfeb79debb46b9b8454ad60c402d1
+system_ext/priv-app/com.qualcomm.location/com.qualcomm.location.apk|1945972ef27fabf61f07a13366472a22a94cc563
 
 # QSPM
 system_ext/lib/vendor.qti.qspmhal-V1-ndk.so
