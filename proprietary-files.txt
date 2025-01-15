@@ -895,7 +895,6 @@ system_ext/lib64/libmwqemiptablemgr.so|6ba61381796c94423735947a1035ed6e0f900c57
 system_ext/lib64/libqmi_cci_system.so|638c21dd8cb16843e45847557044124cada2ed7c
 system_ext/lib64/libqmi_encdec_system.so|e204cf625f3b8c7b0c8fbdfea97e4a40271c407a
 system_ext/lib64/libtrigger-handler.so|d5a0f7516562f99fa2a2af42b44cce97461442a1
-system_ext/lib64/libupdateprof.qti.so|9e3e2672982144211de038937074bc6c81bd6335
 system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so|c27f4e77d677a3e8d1c1c91ca1b40958dfb7f9d6
 system_ext/lib64/vendor.qti.data.dmapconsent-V1-ndk.so|f1ec27d97398dbbbc3c1429a7dd2bad2af1937ad
 system_ext/lib64/vendor.qti.data.factory@1.0.so|d875078eb6773b168511034295ce7cfa8fdea4c0
@@ -1441,10 +1440,6 @@ vendor/libnfc-nxp_RF.conf
 vendor/bin/ntf-service
 vendor/etc/init/init.ntf.rc
 vendor/etc/permissions/com.nothing.features_vnd.xml
-
-# Perf
-system_ext/lib/libqspm-mem-utils.so
-system_ext/lib64/libqspm-mem-utils.so
 
 # Peripheral manager
 vendor/bin/pm-proxy
