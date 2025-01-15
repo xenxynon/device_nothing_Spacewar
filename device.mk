@@ -283,15 +283,6 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@2.1-service \
-    android.hardware.gnss-V2-ndk.vendor
-
-PRODUCT_PACKAGES += \
-    libbatching \
-    libgeofencing \
-    libgnss
-
-PRODUCT_PACKAGES += \
     flp.conf \
     gnss_antenna_info.conf \
     gps.conf \
