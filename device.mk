@@ -300,6 +300,9 @@ PRODUCT_PACKAGES += \
     sap.conf \
     xtwifi.conf \
 
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    persist.backup.ntpServer="0.pool.ntp.org"
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.qti \
