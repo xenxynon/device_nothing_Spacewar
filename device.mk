@@ -286,7 +286,11 @@ PRODUCT_PACKAGES += \
     flp.conf \
     gnss_antenna_info.conf \
     gps.conf \
-    izat.conf
+    izat.conf \
+    lowi.conf \
+    apdr.conf \
+    sap.conf \
+    xtwifi.conf \
 
 # Health
 PRODUCT_PACKAGES += \
