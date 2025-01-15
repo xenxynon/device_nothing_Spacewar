@@ -111,6 +111,10 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 # Fingerprint
 TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.nothing
 
+# GPS
+include $(DEVICE_PATH)/hidl/gps/gps_vendor_board.mk
+BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
+
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     $(DEVICE_PATH)/configs/vintf/vendor_framework_compatibility_matrix.xml \
