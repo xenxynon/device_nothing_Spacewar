@@ -20,13 +20,11 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
-# RRO (derp)
+# RRO
 PRODUCT_PACKAGES += \
+    QCOMGPSFrameworksOverlay \
     PixysFrameworksSpacewar \
-    PixysSystemUISpacewar
-
-# RRO (Spacewar)
-PRODUCT_PACKAGES += \
+    PixysSystemUISpacewar \
     SpacewarCarrierConfig \
     SpacewarFrameworks \
     SpacewarNfc \
