@@ -36,7 +36,6 @@
 #include <IDataItemSubscription.h>
 #include <IFrameworkActionReq.h>
 
-using namespace std;
 
 namespace loc_core
 {

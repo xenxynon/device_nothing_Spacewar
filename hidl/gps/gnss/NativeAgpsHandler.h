@@ -36,7 +36,6 @@
 #include <IDataItemCore.h>
 #include <IOsObserver.h>
 
-using namespace std;
 using loc_core::IOsObserver;
 using loc_core::IDataItemObserver;
 using loc_core::IDataItemCore;

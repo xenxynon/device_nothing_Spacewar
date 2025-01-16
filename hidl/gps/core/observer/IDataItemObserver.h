@@ -33,7 +33,6 @@
 #include  <list>
 #include <string>
 
-using namespace std;
 
 namespace loc_core
 {

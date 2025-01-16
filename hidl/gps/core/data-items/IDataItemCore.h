@@ -35,7 +35,6 @@
 
 namespace loc_core {
 
-using namespace std;
 
 /**
  * @brief IDataItemCore interface.

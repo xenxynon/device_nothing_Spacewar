@@ -75,7 +75,6 @@ T * d = static_cast<T *>(this);
 static constexpr char sDelimit = ':';
 
 namespace loc_core {
-using namespace std;
 
 enum NetworkType {
     TYPE_MOBILE = 0,

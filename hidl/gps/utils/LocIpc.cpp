@@ -37,7 +37,6 @@
 #include <LocIpc.h>
 #include <algorithm>
 
-using namespace std;
 
 namespace loc_util {
 

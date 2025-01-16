@@ -33,7 +33,6 @@
 #include <string>
 #include  <DataItemId.h>
 
-using namespace std;
 
 namespace loc_core
 {

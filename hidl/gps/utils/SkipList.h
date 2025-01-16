@@ -36,7 +36,6 @@
 #include <iostream>
 #include <algorithm>
 
-using namespace std;
 
 namespace loc_util {
 

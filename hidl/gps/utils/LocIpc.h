@@ -39,7 +39,6 @@
 #include <mutex>
 #include <LocThread.h>
 
-using namespace std;
 
 namespace loc_util {
 

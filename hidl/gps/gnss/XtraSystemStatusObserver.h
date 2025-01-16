@@ -35,7 +35,6 @@
 #include <LocTimer.h>
 #include <stdlib.h>
 
-using namespace std;
 using namespace loc_util;
 using loc_core::IOsObserver;
 using loc_core::IDataItemObserver;

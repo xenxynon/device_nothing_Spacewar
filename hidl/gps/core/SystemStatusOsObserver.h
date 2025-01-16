@@ -48,7 +48,6 @@ namespace loc_core
 /******************************************************************************
  SystemStatusOsObserver
 ******************************************************************************/
-using namespace std;
 using namespace loc_util;
 
 // Forward Declarations
