@@ -307,12 +307,12 @@ public:
 class LocIpcRunnable : public LocRunnable {
     bool mAbortCalled;
     LocIpc& mLocIpc;
-    unique_ptr<LocIpcRecver> mIpcRecver;
+    std::unique_ptr<LocIpcRecver> mIpcRecver;
 public:
     inline LocIpcRunnable(LocIpc& locIpc, unique_ptr<LocIpcRecver>& ipcRecver) :
             mAbortCalled(false),
             mLocIpc(locIpc),
-            mIpcRecver(move(ipcRecver)) {}
+            mIpcRecver(std::move(ipcRecver)) {}
     inline virtual bool run() override {
         if (mIpcRecver != nullptr) {
             mLocIpc.startBlockingListening(*(mIpcRecver.get()));
