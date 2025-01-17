@@ -278,7 +278,7 @@ PRODUCT_PACKAGES += \
     ParanoidGlyphPhone1
 
 # GPS
-include $(LOCAL_PATH)/hidl/gps/gps_vendor_product.mk
+include $(LOCAL_PATH)/aidl/gps/gps_vendor_product.mk
 
 PRODUCT_PACKAGES += \
     android.hardware.gnss-V2-ndk.vendor
