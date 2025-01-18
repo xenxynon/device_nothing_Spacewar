@@ -441,9 +441,7 @@ PRODUCT_PACKAGES += \
     libcurl.vendor:64 \
     libjson \
     libjsoncpp.vendor \
-    libqti_vndfwk_detect.vendor \
-    libsqlite.vendor:64 \
-    libvndfwk_detect_jni.qti.vendor
+    libsqlite.vendor:64
 
 # QTI
 PRODUCT_PACKAGES += \

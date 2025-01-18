@@ -92,44 +92,18 @@ vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
 # ANT+
+system_ext/lib/com.qualcomm.qti.ant@1.0.so
+system_ext/lib64/com.qualcomm.qti.ant@1.0.so
 vendor/lib/hw/com.dsi.ant@1.0-impl.so
+vendor/lib/com.dsi.ant@1.0.so
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
+vendor/lib64/com.dsi.ant@1.0.so
 
 # Audio
-system_ext/etc/permissions/audiosphere.xml
-system_ext/framework/audiosphere.jar
-vendor/bin/audioflacapp
-vendor/lib/hw/audio.primary.lahaina.so;MODULE_SUFFIX=_Spacewar;OVERRIDES=audio.primary.lahaina
-vendor/lib/lib_lvacfs.so
-vendor/lib/libadiertac.so
-vendor/lib/libadm.so
-vendor/lib/libaudcal.so
-vendor/lib/libaudio_log_utils.so
-vendor/lib/libaudioalsa.so
-vendor/lib/libaudioconfigstore.so
-vendor/lib/libaudioparsers.so
-vendor/lib/libdrc.so
-vendor/lib/libhdmipassthru.so
-vendor/lib/liblvacfs_wrapper.so
-vendor/lib/libqtigef.so
-vendor/lib/libssrec.so;MODULE_SUFFIX=_Spacewar;OVERRIDES=libssrec
-vendor/lib/libsurround_3mic_proc.so
-vendor/lib64/libadiertac.so
-vendor/lib64/libaudcal.so
-vendor/lib64/libaudio_log_utils.so
-vendor/lib64/libssrec.so;MODULE_SUFFIX=_Spacewar;OVERRIDES=libssrec
-
-# Audio amplifier
-vendor/firmware/tfa98xx.cnt
-
-# Audio FX modules
-vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libqcbassboost.so
-vendor/lib/soundfx/libqcreverb.so
-vendor/lib/soundfx/libqcvirt.so
-vendor/lib/soundfx/libshoebox.so
-
-# Audio goodix
+system/etc/permissions/com.dirac.acs.xml
+system/etc/sysconfig/preinstalled-packages-dirac.xml
+system/priv-app/DiracAudioControlService_DMP/DiracAudioControlService_DMP.apk
+system/priv-app/NothingDiracService_DMP/NothingDiracService_DMP.apk
 system_ext/etc/hdr_config/ans_off/ans_config.txt
 system_ext/etc/hdr_config/ans_on/ans_config.txt
 system_ext/etc/hdr_config/main_inv_ls/RPP_BiquadHPF_config.txt
@@ -232,8 +206,11 @@ system_ext/etc/hdr_config/wnr_off/wnr_config.txt
 system_ext/etc/hdr_config/wnr_off/wnr_params.txt
 system_ext/etc/hdr_config/wnr_on/wnr_config.txt
 system_ext/etc/hdr_config/wnr_on/wnr_params.txt
-
-# Audio LVIMFS parameters
+system_ext/etc/permissions/audiosphere.xml
+system_ext/framework/audiosphere.jar
+vendor/bin/climax
+vendor/etc/dirac/dirac_resource.dar
+vendor/etc/dirac/interface.json
 vendor/etc/lvacfs_params/1mic/LVACFS_Calibration360.dat
 vendor/etc/lvacfs_params/1mic/LVACFS_Configuration.txt
 vendor/etc/lvacfs_params/1mic/LVIMFS_Parameter_xxxx_ID10_He_USB_Digital_48K.txt
@@ -276,6 +253,75 @@ vendor/etc/lvacfs_params/4mic/LVIMFS_Parameter_xxxx_ID3_MIC_HDR_wideband.txt
 vendor/etc/lvacfs_params/4mic/LVIMFS_Parameter_xxxx_ID4_MIC_Cam_back.txt
 vendor/etc/lvacfs_params/4mic/audiozoom_13.txt
 vendor/etc/lvacfs_params/4mic/audiozoom_4.txt
+vendor/firmware/tfa98xx.cnt
+vendor/lib/hw/audio.primary.lahaina.so;MODULE_SUFFIX=_Spacewar;OVERRIDES=audio.primary.lahaina
+vendor/lib/hw/sound_trigger.primary.lahaina.so
+vendor/lib/soundfx/libasphere.so
+vendor/lib/soundfx/libdiraceffect-afm.so
+vendor/lib/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcvirt.so
+vendor/lib/soundfx/libshoebox.so
+vendor/lib/lib_lvacfs.so
+vendor/lib/liba2dpoffload.so;MODULE_SUFFIX=_Spacewar;OVERRIDES=liba2dpoffload
+vendor/lib/libadiertac.so
+vendor/lib/libadm.so
+vendor/lib/libadpcmdec.so
+vendor/lib/libaudcal.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib/libaudioalsa.so
+vendor/lib/libaudioconfigstore.so
+vendor/lib/libaudioparsers.so
+vendor/lib/libcapiv2svacnn.so
+vendor/lib/libcapiv2svarnn.so
+vendor/lib/libcapiv2vop.so
+vendor/lib/libdirac.so
+vendor/lib/libdrc.so
+vendor/lib/libdsd2pcm.so
+vendor/lib/libgcs-calwrapper.so
+vendor/lib/libgcs-ipc.so
+vendor/lib/libgcs-osal.so
+vendor/lib/libgcs.so
+vendor/lib/libhdmipassthru.so
+vendor/lib/liblistensoundmodel2.so
+vendor/lib/liblvacfs_wrapper.so
+vendor/lib/libmulawdec.so
+vendor/lib/libqtigef.so
+vendor/lib/libsmwrapper.so
+vendor/lib/libssrec.so;MODULE_SUFFIX=_Spacewar;OVERRIDES=libssrec
+vendor/lib/libstagefright_soft_qtiflacdec.so
+vendor/lib/libsurround_3mic_proc.so
+vendor/lib/vendor.qti.voiceprint@1.0.so
+vendor/lib64/hw/audio.primary.lahaina.so;MODULE_SUFFIX=_Spacewar;OVERRIDES=audio.primary.lahaina
+vendor/lib64/hw/sound_trigger.primary.lahaina.so
+vendor/lib64/soundfx/libasphere.so
+vendor/lib64/soundfx/libqcbassboost.so
+vendor/lib64/soundfx/libqcreverb.so
+vendor/lib64/soundfx/libqcvirt.so
+vendor/lib64/soundfx/libshoebox.so
+vendor/lib64/lib_lvacfs.so
+vendor/lib64/liba2dpoffload.so;MODULE_SUFFIX=_Spacewar;OVERRIDES=liba2dpoffload
+vendor/lib64/libadiertac.so
+vendor/lib64/libaudcal.so
+vendor/lib64/libaudio_log_utils.so
+vendor/lib64/libaudioalsa.so
+vendor/lib64/libaudioconfigstore.so
+vendor/lib64/libaudioparsers.so
+vendor/lib64/libcapiv2svacnn.so
+vendor/lib64/libcapiv2svarnn.so
+vendor/lib64/libcapiv2vop.so
+vendor/lib64/libgcs-calwrapper.so
+vendor/lib64/libgcs-ipc.so
+vendor/lib64/libgcs-osal.so
+vendor/lib64/libgcs.so
+vendor/lib64/libhdmipassthru.so
+vendor/lib64/liblistensoundmodel2.so
+vendor/lib64/liblvacfs_wrapper.so
+vendor/lib64/libmulawdec.so
+vendor/lib64/libqtigef.so
+vendor/lib64/libssrec.so;MODULE_SUFFIX=_Spacewar;OVERRIDES=libssrec
+vendor/lib64/libstagefright_soft_qtiflacdec.so
+vendor/lib64/vendor.qti.voiceprint@1.0.so
 
 # Audio/Video Enhancement - from LA.QSSI.15.0.r1-12900-qssi.0
 system_ext/lib/extractors/libmmparserextractor.so|2053835e8eaaea8c9302ba892598135b6789e15f
@@ -297,7 +343,6 @@ vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
 vendor/lib/btaudio_offload_if.so
-vendor/lib/liba2dpoffload.so;MODULE_SUFFIX=_Spacewar;OVERRIDES=liba2dpoffload
 vendor/lib/libbluetooth_audio_session_qti.so
 vendor/lib/libbluetooth_audio_session_qti_2_1.so
 vendor/lib/libbt-hidlclient.so
@@ -311,7 +356,6 @@ vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
 vendor/lib64/btaudio_offload_if.so
-vendor/lib64/liba2dpoffload.so;MODULE_SUFFIX=_Spacewar;OVERRIDES=liba2dpoffload
 vendor/lib64/libbluetooth_audio_session_qti.so
 vendor/lib64/libbluetooth_audio_session_qti_2_1.so
 vendor/lib64/libbt-hidlclient.so
@@ -535,13 +579,9 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 # CDSP
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
-vendor/lib/libcdfw.so
-vendor/lib/libcdfw_remote_api.so
 vendor/lib/libcdsp_default_listener.so
 vendor/lib/libcdsprpc.so
 vendor/lib/libsysmon_cdsp_skel.so
-vendor/lib64/libcdfw.so
-vendor/lib64/libcdfw_remote_api.so
 vendor/lib64/libcdsp_default_listener.so
 vendor/lib64/libcdsprpc.so
 vendor/lib64/libsysmon_cdsp_skel.so
@@ -1082,18 +1122,6 @@ vendor/lib/libdiag.so
 vendor/lib64/libdiag.so
 vendor/lib64/vendor.qti.diaghal@1.0.so;MODULE_SUFFIX=_vendor
 
-# Dirac
-system/etc/permissions/com.dirac.acs.xml
-system/etc/permissions/se.dirac.acs.xml
-system/etc/sysconfig/preinstalled-packages-dirac.xml
-system/priv-app/DiracAudioControlService/DiracAudioControlService.apk
-system/priv-app/DiracAudioControlService_DMP/DiracAudioControlService_DMP.apk
-system/priv-app/NothingDiracService/NothingDiracService.apk
-vendor/etc/dirac/dirac_resource.dar
-vendor/etc/dirac/interface.json
-vendor/lib/soundfx/libdiraceffect-afm.so
-vendor/lib/libdirac.so
-
 # Display Calibration data
 vendor/etc/qdcm_calib_data_rm692e5_amoled_fhd+_120hz_cmd_mode_dsi_visionox_panel.xml
 
@@ -1142,6 +1170,7 @@ vendor/lib64/libsdm-diag.so
 vendor/lib64/libsdm-disp-vndapis.so
 vendor/lib64/libsdmextension.so
 vendor/lib64/libtinyxml2_1.so
+vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
 # DPM
 vendor/bin/dpmQmiMgr
@@ -1200,8 +1229,8 @@ vendor/firmware/goodixfp64.b07
 vendor/firmware/goodixfp64.mdt
 
 # FM
-vendor/lib/vendor.qti.hardware.fm@1.0.so
-vendor/lib64/vendor.qti.hardware.fm@1.0.so
+vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 
 # GPS - from LA.UM.9.15.2.r1-10100-KAMORTA.QSSI14.0
 vendor/bin/hw/vendor.qti.hardware.qccvndhal@1.0-service|b49b4964ca1b391921b05d0350479bae517a75ae
@@ -1360,27 +1389,6 @@ vendor/lib64/libspcom.so
 # Latency
 vendor/lib64/vendor.qti.hardware.data.latency@1.0.so;MODULE_SUFFIX=_vendor
 
-
-# Listen
-vendor/lib/libcapiv2svacnn.so
-vendor/lib/libcapiv2svarnn.so
-vendor/lib/libcapiv2vop.so
-vendor/lib/libgcs-calwrapper.so
-vendor/lib/libgcs-ipc.so
-vendor/lib/libgcs-osal.so
-vendor/lib/libgcs.so
-vendor/lib/liblistensoundmodel2.so
-vendor/lib/libmulawdec.so
-vendor/lib64/libcapiv2svacnn.so
-vendor/lib64/libcapiv2svarnn.so
-vendor/lib64/libcapiv2vop.so
-vendor/lib64/libgcs-calwrapper.so
-vendor/lib64/libgcs-ipc.so
-vendor/lib64/libgcs-osal.so
-vendor/lib64/libgcs.so
-vendor/lib64/liblistensoundmodel2.so
-vendor/lib64/libmulawdec.so
-
 # Media
 vendor/bin/hw/vendor.qti.media.c2@1.0-service
 vendor/bin/vppservice
@@ -1394,7 +1402,6 @@ vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy
 vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy
 vendor/etc/vintf/manifest/c2_manifest_vendor.xml
 vendor/lib/libOmxVideoDSMode.so;DISABLE_DEPS
-vendor/lib/libdsd2pcm.so
 vendor/lib/libmmosal.so;MODULE_SUFFIX=_vendor
 vendor/lib/libqc2vppfilter.so
 vendor/lib/libqcodec2_base.so
@@ -1457,24 +1464,33 @@ vendor/etc/public.libraries.txt
 
 # NFC
 system/framework/com.nxp.nfc.jar
+system_ext/lib/vendor.nxp.hardware.nfc@1.0.so
+system_ext/lib/vendor.nxp.hardware.nfc@1.1.so
+system_ext/lib/vendor.nxp.hardware.nfc@2.0.so
+system_ext/lib64/vendor.nxp.hardware.nfc@1.0.so
+system_ext/lib64/vendor.nxp.hardware.nfc@1.1.so
+system_ext/lib64/vendor.nxp.hardware.nfc@2.0.so
 vendor/bin/hw/android.hardware.nfc_snxxx@1.2-service
 vendor/bin/nqnfcinfo
 vendor/etc/init/android.hardware.nfc_snxxx@1.2-service.rc
 vendor/etc/init/init.Spacewar.nfc.rc
 vendor/etc/init/init.Spacewar.se.rc
-vendor/etc/permissions/com.nxp.nfc.xml
 vendor/etc/libnfc-mtp-SN100.conf
 vendor/etc/libnfc-mtp-SN100_38_4MHZ.conf
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp.conf
 vendor/etc/libnfc-qrd-SN100.conf
 vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf
+vendor/lib/hw/android.hardware.nfc@1.0-impl.so
+vendor/lib64/hw/android.hardware.nfc@1.0-impl.so
 vendor/lib64/jcos_client.so
 vendor/lib64/libpn557_fw.so
 vendor/lib64/libsn100u_fw.so
 vendor/lib64/ls_client.so
 vendor/lib64/nfc_nci_nxp_snxxx.so
 vendor/lib64/se_extn_client.so
+vendor/lib64/vendor.nxp.nxpese@1.0.so
+vendor/lib64/vendor.nxp.nxpnfc@2.0.so
 vendor/libnfc-nxp_RF.conf
 
 # NTF (probably means nothing features)
@@ -1485,6 +1501,7 @@ vendor/etc/permissions/com.nothing.features_vnd.xml
 # Peripheral manager
 vendor/bin/pm-proxy
 vendor/bin/pm-service
+vendor/lib/libperipheral_client.so
 vendor/lib64/libperipheral_client.so
 
 # QCC - from LA.QSSI.15.0.r1-12900-qssi.0
@@ -1676,12 +1693,17 @@ vendor/lib64/libsoc_helper.so
 # SecureMSM (EID)
 vendor/bin/hw/vendor.qti.hardware.eid@1.0-service
 vendor/etc/init/vendor.qti.hardware.eid@1.0-service.rc
+vendor/lib/hw/vendor.qti.hardware.eid@1.0-impl.so
+vendor/lib/vendor.qti.hardware.eid@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.eid@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.eid@1.0.so
 
 # SecureMSM (GPQESE)
 vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
 vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc
+vendor/lib/hw/vendor.qti.esepowermanager@1.1-impl.so
+vendor/lib/vendor.qti.esepowermanager@1.0.so
+vendor/lib/vendor.qti.esepowermanager@1.1.so
 vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/vendor.qti.esepowermanager@1.1.so
@@ -1689,6 +1711,7 @@ vendor/lib64/vendor.qti.esepowermanager@1.1.so
 # SecureMSM (SECDISP)
 vendor/bin/hw/vendor.qti.hardware.trustedui@1.0-service-qti
 vendor/etc/init/vendor.qti.hardware.trustedui@1.0-service-qti.rc
+
 vendor/lib64/libTouchInputVM.so
 vendor/lib64/libTrustedInput.so
 vendor/lib64/libTrustedInputTZ.so
@@ -1697,7 +1720,6 @@ vendor/lib64/libTrustedUITZ.so
 vendor/lib64/libTrustedUIVM.so
 vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libsi.so
-vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 vendor/lib64/vendor.qti.hardware.trustedui@1.0.so
 vendor/lib64/vendor.qti.hardware.trustedui@1.1.so
 vendor/lib64/vendor.qti.hardware.trustedui@1.2.so
@@ -1706,6 +1728,14 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 # SecureMSM
 vendor/bin/hdcp1prov
 vendor/bin/hdcp2p2prov
+vendor/lib/libbase64.so
+vendor/lib/libcpion.so
+vendor/lib/libhdcpsrm.so
+vendor/lib/libops.so
+vendor/lib/libqisl.so
+vendor/lib/libspl.so
+vendor/lib/libtrustedapploader.so
+vendor/lib/libtzdrmgenprov.so
 vendor/lib64/libbase64.so
 vendor/lib64/libcpion.so
 vendor/lib64/libhdcpsrm.so
@@ -1823,7 +1853,10 @@ vendor/lib64/libqcbor.so
 
 # Soter
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
+vendor/bin/vendor.qti.hardware.soter@1.0-provision
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
+vendor/lib/hw/vendor.qti.hardware.soter@1.0-impl.so
+vendor/lib/vendor.qti.hardware.soter@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
@@ -1831,11 +1864,18 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so
 vendor/bin/ssr_setup
 
 # Thermal
+system_ext/lib/vendor.qti.hardware.limits@1.0.so
+system_ext/lib/vendor.qti.hardware.limits@1.1.so
+system_ext/lib64/vendor.qti.hardware.limits@1.0.so
+system_ext/lib64/vendor.qti.hardware.limits@1.1.so
+vendor/bin/hw/android.hardware.thermal@2.0-service.qti
 vendor/bin/hw/vendor.qti.hardware.limits@1.0-service
 vendor/bin/thermal-engine
 vendor/etc/advance_thermal_mitigation/atmc.json
+vendor/etc/init/android.hardware.thermal@2.0-service.qti.rc
 vendor/etc/init/init_thermal-engine.rc
 vendor/etc/init/vendor.qti.hardware.limits@1.0-service.rc
+vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.qti.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.limits@1.0-service.xml
 vendor/etc/thermal-engine.conf
 vendor/etc/thermal.benchmark.conf
@@ -1844,6 +1884,7 @@ vendor/etc/thermal.high.level1.conf
 vendor/etc/thermal.high.level2.conf
 vendor/etc/thermal.high.level3.conf
 vendor/etc/thermal.high.level4.conf
+vendor/etc/thermal.high.perf.conf
 vendor/etc/thermal.low.conf
 vendor/etc/thermal.low.level1.conf
 vendor/etc/thermal.low.level2.conf
@@ -1856,7 +1897,7 @@ vendor/etc/thermal.sgame.conf
 vendor/etc/thermal.super.conf
 vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
-vendor/lib64/vendor.qti.hardware.limits@1.0.so
+vendor/lib64/vendor.qti.hardware.limits@1.0.so;MODULE_SUFFIX=_vendor
 
 # Time
 vendor/app/TimeService/TimeService.apk
