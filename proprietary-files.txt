@@ -232,8 +232,6 @@ system_ext/etc/hdr_config/wnr_off/wnr_config.txt
 system_ext/etc/hdr_config/wnr_off/wnr_params.txt
 system_ext/etc/hdr_config/wnr_on/wnr_config.txt
 system_ext/etc/hdr_config/wnr_on/wnr_params.txt
-system_ext/lib/libavenhancements.so;DISABLE_CHECKELF
-system_ext/lib64/libavenhancements.so;DISABLE_CHECKELF
 
 # Audio LVIMFS parameters
 vendor/etc/lvacfs_params/1mic/LVACFS_Calibration360.dat
@@ -278,6 +276,16 @@ vendor/etc/lvacfs_params/4mic/LVIMFS_Parameter_xxxx_ID3_MIC_HDR_wideband.txt
 vendor/etc/lvacfs_params/4mic/LVIMFS_Parameter_xxxx_ID4_MIC_Cam_back.txt
 vendor/etc/lvacfs_params/4mic/audiozoom_13.txt
 vendor/etc/lvacfs_params/4mic/audiozoom_4.txt
+
+# Audio/Video Enhancement - from LA.QSSI.15.0.r1-12900-qssi.0
+system_ext/lib/extractors/libmmparserextractor.so|2053835e8eaaea8c9302ba892598135b6789e15f
+system_ext/lib/libavenhancements.so|d467c3fd9f5f0c1334b72932c11e029502abe8a4
+system_ext/lib/libmmosal.so|8b1b39e2381cfd84178a278734cfddbcf73ecba4
+system_ext/lib/libmmparser_lite.so|edd354e301073fce1db42cd91093548c912ab18b
+system_ext/lib64/extractors/libmmparserextractor.so|fd22a2bc8f956911b05e938ed7fa7f7cd008baac
+system_ext/lib64/libavenhancements.so|f39e19fd63e579c2926c7dfa9241a3a81e052db9
+system_ext/lib64/libmmosal.so|43e0618b504500c348d974426eed3b234818a744
+system_ext/lib64/libmmparser_lite.so|6671361d1f02cb83a9dcd70b03deeb432f587a8b
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
@@ -1374,10 +1382,6 @@ vendor/lib64/liblistensoundmodel2.so
 vendor/lib64/libmulawdec.so
 
 # Media
-system_ext/lib/libmmosal.so
-system_ext/lib/libmmparser_lite.so
-system_ext/lib64/libmmosal.so
-system_ext/lib64/libmmparser_lite.so
 vendor/bin/hw/vendor.qti.media.c2@1.0-service
 vendor/bin/vppservice
 vendor/etc/configstore/vpp.configstore.xml
