@@ -101,7 +101,7 @@ function blob_fixup() {
             ;;
         vendor/bin/hw/android.hardware.keymaster@4.1-service-qti)
             [ "$2" = "" ] && return 0
-            "${PATCHELF}" --add-needed "libcrypto-v33.so" "${2}"
+             grep -q "libcrypto-v33.so" "${2}" || "${PATCHELF}" --add-needed "libcrypto-v33.so" "${2}"
             ;;
 
 
