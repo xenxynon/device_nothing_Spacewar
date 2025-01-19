@@ -207,7 +207,6 @@ system_ext/etc/hdr_config/wnr_off/wnr_params.txt
 system_ext/etc/hdr_config/wnr_on/wnr_config.txt
 system_ext/etc/hdr_config/wnr_on/wnr_params.txt
 system_ext/etc/permissions/audiosphere.xml
-system_ext/framework/audiosphere.jar
 vendor/bin/climax
 vendor/etc/dirac/dirac_resource.dar
 vendor/etc/dirac/interface.json
@@ -322,6 +321,33 @@ vendor/lib64/libqtigef.so
 vendor/lib64/libssrec.so;MODULE_SUFFIX=_Spacewar;OVERRIDES=libssrec
 vendor/lib64/libstagefright_soft_qtiflacdec.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
+
+# Audio - from LA.QSSI.15.0.r1-10500-qssi.0
+system_ext/bin/qxrsplitauxservice|890ae25d11d9caf03342440c93681b2e08db3f39
+system_ext/etc/init/sxrauxd_ext.rc|fbaa12e37788fa17524fec02b842902d4e3a6f53
+system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
+system_ext/etc/seccomp_policy/sxraux-arm.policy|0508c0d7bf078a26f4c37c4eac58b44b4b21de3f
+system_ext/framework/audiosphere.jar|53ca88f91715ffc503d1298d22fcdb3cc5f5b57b
+system_ext/lib/libbinauralrenderer_wrapper.qti.so|03495a4640b506e0511e4d9df007fc6901ac4c99
+system_ext/lib/libhoaeffects.qti.so|ffcd5bb7d93a7bbdc9da3495804280e373f7c91d
+system_ext/lib/libhoaeffects_csim.so|b2922de1a356849b58ff0c3e73c8c076dcffe5dd
+system_ext/lib/liblistenjni.qti.so|8b3d11dc0b652cd9363213e477a6ce2eafc2c8f9
+system_ext/lib/liblistensoundmodel2.qti.so|b40f06bee2da804dc40c8a12bd5368e1dd91755f
+system_ext/lib/liblsmclient.so|5e4013201d5358fdcd15dee13bd9185fc2ebe520
+system_ext/lib/libvr_amb_engine.so|69340f3af668f39a3f2b4f9314ca49ef8de7de2b
+system_ext/lib/libvr_object_engine.so|0563806dcb9f74461f030e23256eb2de9b6fe155
+system_ext/lib/vendor.qti.hardware.ListenSoundModel@1.0.so|cf14ac5d587d6c7c8a9c59c691bba9bf24974b4f
+system_ext/lib64/libbinauralrenderer_wrapper.qti.so|2172fcf906b4c3155450d3c3a37d6586c16f0901
+system_ext/lib64/libhoaeffects.qti.so|fda85e1b425059f6be8f7a8541b702230a9e5c65
+system_ext/lib64/libhoaeffects_csim.so|3eca122613a3af345493a242b6839466dd472ac0
+system_ext/lib64/liblistenjni.qti.so|56721d463cb9377ab55b6d76e0e530415daf3de1
+system_ext/lib64/liblistensoundmodel2.qti.so|8c49053db48329225e2a4144f3f11bbabc59484f
+system_ext/lib64/liblsmclient.so|6cd379c9112609a3bc4eef98a1ceff8ce40be22e
+system_ext/lib64/libqxrsplitauxservice.qti.so|d246b337379710e3e3e6ae205d4d77caf48ed3f1
+system_ext/lib64/libvr_amb_engine.so|acb1fd360626b9f237adef0551d5ea31af58f347
+system_ext/lib64/libvr_object_engine.so|8e53cccb6e2c56032d5388f4151d29123d63f51c
+system_ext/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so|27b3c4622216f2cd37604ffa79c9c90a7d7cb788
+system_ext/lib64/vendor.qti.hardware.qxr-V1-ndk_platform.so|baaa2cd20be6c86aff7734e9cbd13dbd10ba6177
 
 # Audio/Video Enhancement - from LA.QSSI.15.0.r1-12900-qssi.0
 system_ext/lib/extractors/libmmparserextractor.so|2053835e8eaaea8c9302ba892598135b6789e15f
