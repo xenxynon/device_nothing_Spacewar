@@ -288,7 +288,6 @@ vendor/lib/libmulawdec.so
 vendor/lib/libqtigef.so
 vendor/lib/libsmwrapper.so
 vendor/lib/libssrec.so;MODULE_SUFFIX=_Spacewar;OVERRIDES=libssrec
-vendor/lib/libstagefright_soft_qtiflacdec.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib/vendor.qti.voiceprint@1.0.so
 vendor/lib64/hw/audio.primary.lahaina.so;MODULE_SUFFIX=_Spacewar;OVERRIDES=audio.primary.lahaina
@@ -319,7 +318,6 @@ vendor/lib64/liblvacfs_wrapper.so
 vendor/lib64/libmulawdec.so
 vendor/lib64/libqtigef.so
 vendor/lib64/libssrec.so;MODULE_SUFFIX=_Spacewar;OVERRIDES=libssrec
-vendor/lib64/libstagefright_soft_qtiflacdec.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 
 # Audio - from LA.QSSI.15.0.r1-10500-qssi.0
@@ -350,14 +348,8 @@ system_ext/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so|27b3c4622216f2cd376
 system_ext/lib64/vendor.qti.hardware.qxr-V1-ndk_platform.so|baaa2cd20be6c86aff7734e9cbd13dbd10ba6177
 
 # Audio/Video Enhancement - from LA.QSSI.15.0.r1-12900-qssi.0
-system_ext/lib/extractors/libmmparserextractor.so|2053835e8eaaea8c9302ba892598135b6789e15f
-system_ext/lib/libavenhancements.so|d467c3fd9f5f0c1334b72932c11e029502abe8a4
 system_ext/lib/libmmosal.so|8b1b39e2381cfd84178a278734cfddbcf73ecba4
-system_ext/lib/libmmparser_lite.so|edd354e301073fce1db42cd91093548c912ab18b
-system_ext/lib64/extractors/libmmparserextractor.so|fd22a2bc8f956911b05e938ed7fa7f7cd008baac
-system_ext/lib64/libavenhancements.so|f39e19fd63e579c2926c7dfa9241a3a81e052db9
 system_ext/lib64/libmmosal.so|43e0618b504500c348d974426eed3b234818a744
-system_ext/lib64/libmmparser_lite.so|6671361d1f02cb83a9dcd70b03deeb432f587a8b
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
@@ -1427,7 +1419,6 @@ vendor/etc/media_yupik_v1/video_system_specs.json
 vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy
 vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy
 vendor/etc/vintf/manifest/c2_manifest_vendor.xml
-vendor/lib/libOmxVideoDSMode.so;DISABLE_DEPS
 vendor/lib/libmmosal.so;MODULE_SUFFIX=_vendor
 vendor/lib/libqc2vppfilter.so
 vendor/lib/libqcodec2_base.so
