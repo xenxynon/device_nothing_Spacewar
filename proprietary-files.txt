@@ -740,15 +740,15 @@ vendor/lib64/vendor.qti.hardware.embmssl@1.1.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so;MODULE_SUFFIX=_vendor
 
 # Telephony - from qcom common
-product/app/ConferenceDialer/ConferenceDialer.apk|3fc889ae5de39fda53314c7a97b7258915fb44a0
-product/app/DeviceStatisticsService/DeviceStatisticsService.apk|b32c30eec9efe44e7d32ff7e1abcab8105cf8f92
-product/app/datastatusnotification/datastatusnotification.apk|2cc598053f13209b34491c95518d46f09205c580
-product/app/remoteSimLockAuthentication/remoteSimLockAuthentication.apk|8a8aba3f09852d3196d6ea87f413e64195d95f6b
-product/app/remotesimlockservice/remotesimlockservice.apk|02fe97f12bcae16b6f776691a091f24716476f4d
-product/app/uimgbaservice/uimgbaservice.apk|4aa4a7b3ba35b5fa09b58976db4a3aa4b846c9aa
-product/app/uimlpaservice/uimlpaservice.apk|6293315778d7ec3ff927f2ad6703175460907046
-product/app/uimremoteclient/uimremoteclient.apk|91860aa3df2571bc0a3fb232070a8df91b2baf4e
-product/app/uimremoteserver/uimremoteserver.apk|98ef9ceee34ce79c2562bb1c15ad0007d0976380
+product/app/ConferenceDialer/ConferenceDialer.apk|d3b64b12d380bc356d0ae7cc5bd4d4d4dea87df5
+product/app/DeviceStatisticsService/DeviceStatisticsService.apk|97445762f03de36f9f4c9b1745f514dd1ed83f5a
+product/app/datastatusnotification/datastatusnotification.apk|d63589045aa413db0357553bd10dd8899c422edb
+product/app/remoteSimLockAuthentication/remoteSimLockAuthentication.apk|7f4435a49030b8368faa83dcc2e2fe777345f2b7
+product/app/remotesimlockservice/remotesimlockservice.apk|6e4320f237f77f230352c5c2d7d84c233dd6a6c0
+product/app/uimgbaservice/uimgbaservice.apk|967f64d94766a88cf3914ce2a6a61c76ad2df18e
+product/app/uimlpaservice/uimlpaservice.apk|83862d408c0610e800ff833afec0c57764865d75
+product/app/uimremoteclient/uimremoteclient.apk|ea134986e59c7d913eb49b51a5e8afdf43e61489
+product/app/uimremoteserver/uimremoteserver.apk|a2f8181f1b7f063685178294f50a894f9f46b603
 product/etc/permissions/RemoteSimlock.xml|2496b81a85c2d86cbde7ec44458c97f76478f52e
 product/etc/permissions/RemoteSimlockManager.xml|5b459346f2de36f0632154c42cb16b8db03c2920
 product/etc/permissions/UimGba.xml|03eb0916550720f168c4f66acdc3fc4abf9993ef
@@ -772,15 +772,15 @@ product/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so|0668dc9b341acdcd2308de0
 system/framework/tcmclient.jar|de34d4305038f6fcf3cb314fd352ac54cec7e928
 system/framework/vendor.qti.hardware.data.connectionaidl-V1-java.jar|0c04a8165f93bb540f33d7ef506c5de0cace8822
 system/lib64/vendor.qti.diaghal-V1-ndk.so|ac3381b74861e15a8fb2842dd8d929c97a5f0fa1
-system_ext/app/AtFwd2/AtFwd2.apk|8506abbcbcd7b34f1b29b92a9fc4947acf777963
-system_ext/app/DeviceInfo/DeviceInfo.apk|4fdbfef3d6cd64933963bbfb95bce85de85f2a5c
-system_ext/app/DynamicDDSService/DynamicDDSService.apk|711650fda282561f7165315e6f1c8fa5c82057e2
-system_ext/app/ImsDataChannelService/ImsDataChannelService.apk|5b9759e12dd9c226504e7b98a81c81074a670952
-system_ext/app/ImsRcsService/ImsRcsService.apk|7fe461f429338f133dd89fc10d8b7cd5c6a02180
-system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|645bdc2284cc65747ae77fce305d8f3186c61e9f
-system_ext/app/SimContact/SimContact.apk|249fb8e6c993bc1e408a10bbb42fe4adbecbd6b3
-system_ext/app/atfwd/atfwd.apk|06c08e74ec6d50ecd8de70b878310e1b752d3f07
-system_ext/app/uceShimService/uceShimService.apk|87fb5ecc1b0cf9b600406f649b592beec5a05281
+system_ext/app/AtFwd2/AtFwd2.apk|40d39d6876df9ba79cb89b333642e13158424ffa
+system_ext/app/DeviceInfo/DeviceInfo.apk|1efd59166cb17e74ec5e642b09871027a3fcba7b
+system_ext/app/DynamicDDSService/DynamicDDSService.apk|e69986f14b65dd004f7a610995ec8c939ede1e54
+system_ext/app/ImsDataChannelService/ImsDataChannelService.apk|031f10555f7165b502fcc83d4b0bb9534bc84b5f
+system_ext/app/ImsRcsService/ImsRcsService.apk|8a421431e6dcdadf281a55861c7256e24f6e223c
+system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|d5829c38c2370cb9acd8b3753d62cef709815614
+system_ext/app/SimContact/SimContact.apk|018b2403371b0d612613943acb1bb3dc3cf53a45
+system_ext/app/atfwd/atfwd.apk|ba910b9c501355ca0634379e20d5458e8e7182a1
+system_ext/app/uceShimService/uceShimService.apk|8ebd2b6361a6bdae9dcc58d049aaad73a6482743
 system_ext/bin/diag_callback_sample_system|5132c939553138817bb0ef3425b3d81d30ecd733
 system_ext/bin/diag_dci_sample_system|643729e0e9fd28aebb06acc6dd300f2dac886d49
 system_ext/bin/diag_mdlog_system|6371beb3c7bc6f5fd9e0b0bc7206a100df28c75a
@@ -827,8 +827,8 @@ system_ext/framework/com.quicinc.cne.constants-V2.1-java.jar|966117063cf1f3471ef
 system_ext/framework/datachannellib.jar|007ed1f6896f66bf4133c82499f926dddb7c6656
 system_ext/framework/dpmapi.jar|504f269da33eae85b458dddcc99209f21506ce5c
 system_ext/framework/qcrilhook.jar|9787a32278ef29754c0b0fe665c6dae883c8e9c2
-system_ext/framework/qti-telephony-common.jar|761333c1e93063c493c46658fabc74275a978ab5
-system_ext/framework/vendor.qti.data.dmapconsent-V1-java.jar|78a9e8aaec1c1b9e4eb47d7bed249f4e8ea4e830
+system_ext/framework/qti-telephony-common.jar|09f549449468253084e7068a6fd3829f62db5b44
+system_ext/framework/vendor.qti.data.dmapconsent-V1-java.jar|32ff68f7351e34879c70af21d9d95910f51302db
 system_ext/framework/vendor.qti.data.factory-V1.0-java.jar|f9d2852bf4267e6cd5b5361499464f10bc602017
 system_ext/framework/vendor.qti.data.factory-V2.0-java.jar|2b6c1d686eb37f582688919ccbcd7f3fa99ff06b
 system_ext/framework/vendor.qti.data.factory-V2.1-java.jar|c7917288bd5714d3b8bbda7e6a9bc7942a337694
@@ -914,7 +914,7 @@ system_ext/framework/vendor.qti.latency-V2.1-java.jar|3ace261d205a669cf2096da584
 system_ext/framework/vendor.qti.latency-V2.2-java.jar|8f942efdbc7ce9ee925998b1e710da5962657c70
 system_ext/framework/vendor.qti.latencyaidlservice-V1-java.jar|faffb1f678e30057dd83e5abacd5b03b51f2a467
 system_ext/lib64/libimscamera_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimscamera_jni.so|0b61c9104edbcf3284daae09b253b2acbed65ad6
-system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so|ffda0b8f5af6212e645a50f454bdc44f69712fba
+system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so|7616e2b6a8cb3dd2c7c594eed1b16417a1257125
 system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|c829dd39d50769ffa52e0eafe722e5e1261aa5e8
 system_ext/lib64/com.qualcomm.qti.imscmservice@2.0.so|353c7717ddfe996b07adabe9ac98f3a460995736
 system_ext/lib64/com.qualcomm.qti.imscmservice@2.1.so|ead1b95c06cb6c32afb3d9d56437f384d62da057
@@ -933,7 +933,7 @@ system_ext/lib64/com.quicinc.cne.server@2.0.so|73c914d5e9a1820b2077b41099243654d
 system_ext/lib64/com.quicinc.cne.server@2.1.so|1525d38f036316eff684044767b4dee56ceb8b14
 system_ext/lib64/com.quicinc.cne.server@2.2.so|5b316bff61f4a72ca8fd8273b262fc0a860e1e1f
 system_ext/lib64/lib-imsvideocodec.so|2db5b8c344b6de05dba4f9a1449fd74e17d78819
-system_ext/lib64/lib-imsvt.so|e1c75edf645be4017f63a4e92c67e92c3422b942
+system_ext/lib64/lib-imsvt.so|b00b6f8e1ae88154302b2b3aa1b27ec0d96c4084
 system_ext/lib64/lib-imsvtextutils.so|acce4410add2b5088adab8f7b4e37e36e0c09105
 system_ext/lib64/lib-imsvtutils.so|57e53dc5e1b4b35e0abefc4ef54e81e3e6523fb8
 system_ext/lib64/libdiag_system.qti.so|ab307d57018c6d2dddba98992d0214a45878475a
@@ -948,13 +948,13 @@ system_ext/lib64/libembmstinyxml.so|e65bced499f14ece8aac51254c9b354828642784
 system_ext/lib64/libjnihelpers.so|d1b25fd6994f53060d53eefbe63b55c454cf3413
 system_ext/lib64/libmink-sock-native-api.so|a059e8d1c01e679b7c0c7726ebf86f08c4add2e4
 system_ext/lib64/libminksocket_system.so|8fcc8e757fe93c72c37fe454deb8f7b9c4c6339c
-system_ext/lib64/libmsp.so|4e8ac8cc7f6317cf14139e9324468257f94eef11
+system_ext/lib64/libmsp.so|f7e722da890ddba4078b8b399b151dfec4150632
 system_ext/lib64/libmwqemiptablemgr.so|6ba61381796c94423735947a1035ed6e0f900c57
 system_ext/lib64/libqmi_cci_system.so|638c21dd8cb16843e45847557044124cada2ed7c
 system_ext/lib64/libqmi_encdec_system.so|e204cf625f3b8c7b0c8fbdfea97e4a40271c407a
 system_ext/lib64/libtrigger-handler.so|d5a0f7516562f99fa2a2af42b44cce97461442a1
 system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so|c27f4e77d677a3e8d1c1c91ca1b40958dfb7f9d6
-system_ext/lib64/vendor.qti.data.dmapconsent-V1-ndk.so|f1ec27d97398dbbbc3c1429a7dd2bad2af1937ad
+system_ext/lib64/vendor.qti.data.dmapconsent-V1-ndk.so|d59c11130015c1d0fce959f45998fd1fd51ae08a
 system_ext/lib64/vendor.qti.data.factory@1.0.so|d875078eb6773b168511034295ce7cfa8fdea4c0
 system_ext/lib64/vendor.qti.data.factory@2.0.so|b2fe8317d51149e265941e00fdc848e8d4a38b36
 system_ext/lib64/vendor.qti.data.factory@2.1.so|35395225ac98b07b1c70c848e69f2193f352f911
@@ -1077,10 +1077,10 @@ system_ext/lib64/vendor.qti.latency@2.2.so|2f68bd1486748794a3e270d95918d935ed307
 system_ext/lib64/vendor.qti.latency@2.3.so|4f0daa6ac8cb8738723360072321cd277248aa38
 system_ext/lib64/vendor.qti.latencyaidlservice-V1-ndk.so|f52f6d169d13dde90582fbde4c9ac727d03b8eaa
 system_ext/lib64/vendor.qti.mstatservice@1.0.so|924edc51a015d99dec5b4fdc9bbf754a2a41a136
-system_ext/priv-app/QtiTelephony/QtiTelephony.apk|99ee7531b8923d67e7295fc7d9413d9c844d33be
-system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|5beb46348fe2b103eed37f3f8f6ca32bcb9af9cb
-system_ext/priv-app/ims/ims.apk|04fbc15831ad9c3dbcc16a8ebe3fc50ccb54a25f
-system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|c658f81e8fd9057d05e6bba07fdd15c61507daab
+system_ext/priv-app/QtiTelephony/QtiTelephony.apk|3a1bb75a14b3de3c25deecc06a94a731bbe22cdd
+system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|158a598891636edcd4a90cfbec65443d2a7161a8
+system_ext/priv-app/ims/ims.apk|9a1043b7a3bb6625606e38ea7150f156406b13d0
+system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|f44654156c1c6689044ccdd1af56d49a90716572
 
 # IMS
 vendor/bin/ims_rtp_daemon
