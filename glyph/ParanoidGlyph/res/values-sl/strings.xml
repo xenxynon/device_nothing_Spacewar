@@ -2,7 +2,7 @@
 <!--
      Copyright (C) 2013-2016 The CyanogenMod Project
                    2017 The LineageOS Project
-                   2020-2023 Paranoid Android
+                   2020-2024 Paranoid Android
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@
     <string name="glyph_settings_app_name">Glyph vmesnik</string>
     <string name="glyph_settings_enable">Glyph lučke</string>
     <string name="glyph_settings_title">Glyph vmesnik</string>
-    <string name="glyph_settings_summary">Nastavitve za Glyph lučke</string>
+    <string name="glyph_settings_summary">Možnosti za Glyph lučke</string>
     <string name="glyph_settings_flip_toggle_title">Obrat za Glyph</string>
     <string name="glyph_settings_flip_toggle_summary">Utišaj in prikaži Glyphe, če je telefon obrnjen s sprednjo stranjo navzdol</string>
     <string name="glyph_settings_brightness">Svetlost</string>
@@ -40,6 +40,8 @@
     <string name="glyph_settings_notifs_sub_title">Dovoljene aplikacije</string>
     <string name="glyph_settings_notifs_sub_toggle_title">Omogoči animacijo obvestila</string>
     <string name="glyph_settings_notifs_sub_animations_title">Vzorec</string>
+    <string name="glyph_settings_notifs_sub_essential_title">Pomembna obvestila</string>
+    <string name="glyph_settings_notifs_sub_essential_summary">Pomemben Glyph bo prikazan dokler pomembna obvestila niso prebrana ali opuščena.</string>
     <string name="glyph_settings_volume_title">Glasnost</string>
     <string name="glyph_settings_volume_level_toggle_title">Kazalnik glasnosti</string>
     <string name="glyph_settings_volume_level_toggle_summary">Prikaži raven glasnosti med prilagajanjem</string>

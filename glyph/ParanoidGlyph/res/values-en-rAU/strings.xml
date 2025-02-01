@@ -2,7 +2,7 @@
 <!--
      Copyright (C) 2013-2016 The CyanogenMod Project
                    2017 The LineageOS Project
-                   2020-2023 Paranoid Android
+                   2020-2024 Paranoid Android
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -40,12 +40,14 @@
     <string name="glyph_settings_notifs_sub_title">Apps to allow</string>
     <string name="glyph_settings_notifs_sub_toggle_title">Enable notification animation</string>
     <string name="glyph_settings_notifs_sub_animations_title">Pattern</string>
+    <string name="glyph_settings_notifs_sub_essential_title">Essential Notifications</string>
+    <string name="glyph_settings_notifs_sub_essential_summary">Essential Glyph will be displayed until Essential notifications are read or dismissed</string>
     <string name="glyph_settings_volume_title">Volume</string>
     <string name="glyph_settings_volume_level_toggle_title">Volume indicator</string>
     <string name="glyph_settings_volume_level_toggle_summary">Show volume level when adjusting</string>
     <string name="glyph_settings_misc_title">Miscellaneous</string>
     <string name="glyph_settings_music_visualizer_toggle_title">Music Visualiser</string>
-    <string name="glyph_settings_music_visualizer_toggle_summary">This will make Glyph lights react to audio player on the device.\n All other Glyph functions will get disabled when this is used.</string>
+    <string name="glyph_settings_music_visualizer_toggle_summary">This will make Glyph lights react to audio player on the device.\nAll other Glyph functions will get disabled when this is used.</string>
     <string name="glyph_accessibility_quick_settings">Glyph</string>
     <string name="glyph_accessibility_quick_settings_torch">Glyph torch</string>
     <string name="glyph_accessibility_quick_settings_off">Off</string>
