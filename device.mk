@@ -33,7 +33,6 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/nothing \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/qcom-caf/common/libqti-perfd-client \
@@ -293,9 +292,6 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2.vendor \
     com.android.nfc_extras \
     Tag
-
-# Nt-fwk
-$(call inherit-product, hardware/nothing/nt-fwk/nt-fwk.mk)
 
 # Power
 PRODUCT_PACKAGES += \

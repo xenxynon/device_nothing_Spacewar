@@ -22,7 +22,6 @@ namespace_imports = [
     'vendor/nothing/Spacewar',
     'hardware/qcom-caf/sm8350',
     'hardware/qcom-caf/wlan',
-    'hardware/nothing',
     'vendor/qcom/opensource/commonsys-intf/display',
     'vendor/qcom/opensource/commonsys/display',
     'vendor/qcom/opensource/dataservices',
