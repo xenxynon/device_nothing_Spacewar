@@ -134,6 +134,7 @@ ro.incremental.enable=yes
 
 # Media
 debug.stagefright.c2inputsurface=-1
+vendor.media.omx=0
 
 # QTEE
 persist.vendor.qteeconnector.retrying_interval=30
