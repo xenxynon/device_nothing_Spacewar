@@ -57,6 +57,7 @@ BOARD_KERNEL_CMDLINE := \
     cgroup.memory=nokmem,nosocket \
     pcie_ports=compat \
     iptable_raw.raw_before_defrag=1 \
+    androidboot.selinux=permissive
     ip6table_raw.raw_before_defrag=1
 
 BOARD_KERNEL_IMAGE_NAME := Image
