@@ -11,6 +11,7 @@ persist.vendor.audio.ha_proxy.enabled=true
 persist.vendor.audio.voicecall.speaker.stereo=true
 ro.config.vc_call_vol_steps=7
 ro.vendor.audio.sdk.fluencetype=fluence
+use.voice.path.for.pcm.voip=true
 vendor.audio_hal.in_period_size=144
 vendor.audio_hal.period_multiplier=3
 vendor.audio_hal.period_size=192
@@ -18,7 +19,6 @@ vendor.audio.adm.buffering.ms=2
 vendor.audio.feature.a2dp_offload.enable=true
 vendor.audio.feature.afe_proxy.enable=true
 vendor.audio.feature.battery_listener.enable=true
-vendor.audio.feature.compr_voip.enable=true
 vendor.audio.feature.compress_in.enable=true
 vendor.audio.feature.compress_meta_data.enable=true
 vendor.audio.feature.concurrent_capture.enable=true
@@ -54,7 +54,6 @@ vendor.audio.use.sw.alac.decoder=true
 vendor.audio.use.sw.ape.decoder=true
 vendor.audio.use.sw.mpegh.decoder=true
 vendor.audio.volume.headset.gain.depcal=true
-vendor.voice.path.for.pcm.voip=true
 
 # APK Verity
 ro.apk_verity.mode=2
