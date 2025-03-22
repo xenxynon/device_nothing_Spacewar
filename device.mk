@@ -250,6 +250,8 @@ PRODUCT_PACKAGES += \
 
 
 # GPS
+$(call inherit-product-if-exists, $(LOCAL_PATH)/gps/gps_vendor_product.mk)
+
 PRODUCT_PACKAGES += \
    QCOMGPSFrameworksOverlay
 
