@@ -14,7 +14,12 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "izat.conf",
+    vendor: true,
+    src: "izat.conf",
+}
 
+prebuilt_etc {
     name: "gnss_antenna_info.conf",
     vendor: true,
     src: "gnss_antenna_info.conf",
@@ -40,4 +45,3 @@ prebuilt_etc {
     sub_dir: "seccomp_policy",
     src: "seccomp_policy/gnss@2.0-xtwifi-client.policy",
 }
-
