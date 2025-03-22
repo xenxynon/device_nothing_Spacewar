@@ -1,0 +1,22 @@
+From fb7040c4629102a7fdcb9fbc5262efe07103d3ef Mon Sep 17 00:00:00 2001
+From: xenxynon <flynryder427@gmail.com>
+Date: Wed, 19 Mar 2025 05:49:22 +0000
+Subject: [PATCH] veux: gps: configs: lower debugging
+
+Change-Id: I0f8d6ae76eb428f08f667195c1874fc9043dbf98
+---
+ proprietary/vendor/etc/lowi.conf | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/proprietary/vendor/etc/lowi.conf b/proprietary/vendor/etc/lowi.conf
+index 83ab1bf..6d4de75 100644
+--- a/proprietary/vendor/etc/lowi.conf
++++ b/proprietary/vendor/etc/lowi.conf
+@@ -22,6 +22,6 @@
+ 
+ # Log level
+ # EL_LOG_OFF = 0, EL_ERROR = 1, EL_WARNING = 2, EL_INFO = 3, EL_DEBUG = 4, EL_VERBOSE = 5, EL_LOG_ALL = 100
+-LOWI_LOG_LEVEL = 4
++LOWI_LOG_LEVEL = 2
+ LOWI_USE_LOWI_LP = 0
+ 
