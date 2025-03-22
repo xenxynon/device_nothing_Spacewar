@@ -40,7 +40,9 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.qti.imsrtpservice@3.0',
     ): lib_fixup_vendor_suffix,
     (
+        'libril-qc-logger',
         'libwpa_client',
+        'qcril_hal_client',
     ): lib_fixup_remove,
 }
 
