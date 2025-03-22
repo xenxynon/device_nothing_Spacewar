@@ -1,5 +1,8 @@
 # DPM
 persist.vendor.dpm.feature=11
 
+# GNSS
+persist.backup.ntpServer="0.pool.ntp.org"
+
 # RIL
 telephony.active_modems.max_count=2

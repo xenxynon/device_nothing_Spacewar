@@ -1,11 +1,20 @@
 <compatibility-matrix version="1.0" type="framework">
-    <hal format="hidl" optional="true">
-        <name>vendor.goodix.hardware.biometrics.fingerprint</name>
-        <transport>hwbinder</transport>
-        <version>2.1</version>
-        <interface>
-            <name>IGoodixFingerprintDaemon</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
+  <hal format="hidl" optional="true">
+    <name>vendor.goodix.hardware.biometrics.fingerprint</name>
+    <transport>hwbinder</transport>
+    <version>2.1</version>
+    <interface>
+      <name>IGoodixFingerprintDaemon</name>
+      <instance>default</instance>
+    </interface>
+  </hal>
+  <hal format="hidl" optional="true">
+    <name>vendor.qti.hardware.qccsyshal</name>
+    <transport>hwbinder</transport>
+    <version>1.0</version>
+    <interface>
+      <name>IQccsyshal</name>
+      <instance>qccsyshal</instance>
+    </interface>
+  </hal>
 </compatibility-matrix>
