@@ -201,6 +201,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.system_ext.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries.txt
 
+$(call soong_config_set,camera,override_format_from_reserved,true)
+
 # Dex-preopt/Art
 ifeq ($(TARGET_BUILD_VARIANT), user)
 ART_BUILD_HOST_DEBUG := false
@@ -218,6 +220,7 @@ PRODUCT_SYSTEM_SERVER_DEBUG_INFO := false
 USE_DEX2OAT_DEBUG := false
 WITH_DEXPREOPT_DEBUG_INFO := false
 endif
+
 
 # Display
 PRODUCT_PACKAGES += \
