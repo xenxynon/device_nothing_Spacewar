@@ -349,7 +349,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors-service.multihal \
+    android.hardware.sensors@2.1-service.Spacewar-multihal \
     sensors.nothing
 
 PRODUCT_COPY_FILES += \
