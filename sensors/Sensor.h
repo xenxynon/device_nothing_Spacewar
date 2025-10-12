@@ -53,7 +53,7 @@ class Sensor {
     virtual void activate(bool enable);
     virtual Result flush();
 
-    virtual void setOperationMode(OperationMode mode);
+    void setOperationMode(OperationMode mode);
     bool supportsDataInjection() const;
     Result injectEvent(const Event& event);
 
