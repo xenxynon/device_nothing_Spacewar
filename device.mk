@@ -11,7 +11,7 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/nothing/Spacewar/Spacewar-vendor.mk)
-$(call inherit-product, vendor/nothing/camera/nothing-camera.mk)
+#$(call inherit-product, vendor/nothing/camera/nothing-camera.mk)
 
 # Nothing-fwk
 PRODUCT_PACKAGES += \
