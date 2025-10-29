@@ -32,11 +32,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/google/interfaces \
-    hardware/google/pixel \
     hardware/qcom-caf/bootctrl \
-    hardware/qcom-caf/common/libqti-perfd-client \
-    hardware/lineage/interfaces/power-libperfmgr \
     vendor/qcom/opensource/usb/etc
 
 # A/B
@@ -323,13 +319,8 @@ PRODUCT_PACKAGES += \
     Tag
 
 # Power
-TARGET_PROVIDES_POWERHAL := true
-PRODUCT_PACKAGES += \
-    android.hardware.power-service.lineage-libperfmgr \
-    libqti-perfd-client
-
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/perf/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/perf,$(TARGET_COPY_OUT_VENDOR)/etc)
 
 # PowerShare
 PRODUCT_PACKAGES += \
@@ -359,6 +350,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
+
+# Task Profiles
+PRODUCT_COPY_FILES += \
+    system/core/libprocessgroup/profiles/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
 
 # Telephony
 PRODUCT_PACKAGES += \
